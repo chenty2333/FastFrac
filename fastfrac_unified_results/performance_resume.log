@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/2739ab992e0d/fastfrac_final_unified_experiments.py", line 59, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/2739ab992e0d/fastfrac_final_unified_experiments.py", line 50, in main
+    elif group=='scaling':performance.scaling(a.repeats)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/2739ab992e0d/unified_performance.py", line 167, in scaling
+    A,C,meta=ba_graph(n)
+             ^^^^^^^^^^^
+  File "/workspace/scratch/2739ab992e0d/unified_performance.py", line 97, in ba_graph
+    d=np.load(cache);edges=d['edges'];C=d['C']
+      ^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 463, in load
+    raise EOFError("No data left in file")
+EOFError: No data left in file

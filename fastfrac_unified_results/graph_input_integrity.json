@@ -1,0 +1,58 @@
+[
+  {
+    "file": "fastfrac_unified_results/graphs/BA-1000.npz",
+    "edges": 2991,
+    "candidates": 2000,
+    "edge_array_sha256": "d269fca7a98d09fa1e2cf36a9d11fbe971826f1655ee760483a3bf206138408f",
+    "candidate_array_sha256": "d6e59d96ff019771a66b8803bb0a5fb09b78d6009582afd55952913d5f3fbd4d",
+    "archive_bytes": 16696
+  },
+  {
+    "file": "fastfrac_unified_results/graphs/BA-10000.npz",
+    "edges": 29991,
+    "candidates": 2000,
+    "edge_array_sha256": "e765f22d83bd2dfefa319871e00f6e872173c2562335a822c83e6b4a2d447a07",
+    "candidate_array_sha256": "3fce054fa6e65d19a444324d5b668847350284a30665e7eca60a26e777bb0f75",
+    "archive_bytes": 105366
+  },
+  {
+    "file": "fastfrac_unified_results/graphs/BA-100000.npz",
+    "edges": 299991,
+    "candidates": 2000,
+    "edge_array_sha256": "8f890f2d3e9c2b33090041ae7dbc87401e922a8df8271611eddbc1261f70e80e",
+    "candidate_array_sha256": "b488a1e04c0ac90a01e2ea271d7a52d3f8d1dc814a5217b154983970d3429b8d",
+    "archive_bytes": 1076502
+  },
+  {
+    "file": "fastfrac_unified_results/graphs/BA-25000.npz",
+    "edges": 74991,
+    "candidates": 2000,
+    "edge_array_sha256": "e9ef10ed28dec57e916b9af5f098929c9a581d35c39f34b1fb195230b860255a",
+    "candidate_array_sha256": "03566a2d7dba2453bec38449e1e8e12726b1a69faba1275cb9d3270bf050786d",
+    "archive_bytes": 257089
+  },
+  {
+    "file": "fastfrac_unified_results/graphs/BA-5000.npz",
+    "edges": 14991,
+    "candidates": 2000,
+    "edge_array_sha256": "05a83d4851dcadfea57657ec0a6a5c990529008ba955fad2a56daac4b79d9dd1",
+    "candidate_array_sha256": "95ccd783b90ece0a9615f1b66da1a014a7696077c587b4974de9768a1488306c",
+    "archive_bytes": 55893
+  },
+  {
+    "file": "fastfrac_unified_results/graphs/BA-50000.npz",
+    "edges": 149991,
+    "candidates": 2000,
+    "edge_array_sha256": "59205669c86acb92420cf570d72d513b93e4aec6b0a6b23205f1aebb5a375571",
+    "candidate_array_sha256": "23cf9a5baef217de09a9ad16ecc5a8ab55512c17a9c50fb01a3c4e996ec9569c",
+    "archive_bytes": 513614
+  },
+  {
+    "file": "fastfrac_unified_results/graphs/SBM-4k.npz",
+    "edges": 59772,
+    "candidates": 600,
+    "edge_array_sha256": "1ee41fd216c8bb856d08c15267b6429947a07c07f225b542eb18bff831d7cbbd",
+    "candidate_array_sha256": "bebb4b22ae08c8b1f8e86c6126402e4b1454cf4b9c745476951b1b4459320b8c",
+    "archive_bytes": 193645
+  }
+]

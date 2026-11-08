@@ -1,0 +1,45 @@
+LOADED roadNet-CA n=1965206 m=2766607 dmax=12 8s
+UNIFIED roadNet-CA CELF 1/1 total=74.925395s online=16.295516s RHS=2019
+UNIFIED roadNet-CA Inc 1/1 total=106.044415s online=48.645755s RHS=2020
+UNIFIED roadNet-CA Dynamic-Logdet 1/1 total=84.266467s online=15.778970s RHS=2019
+DONE roadNet-CA peak_rss_gb=12.9
+LOADED com-Youtube n=1134890 m=2987624 dmax=28754 4s
+UNIFIED com-Youtube CELF 1/1 total=1166.138017s online=244.928862s RHS=2019
+UNIFIED com-Youtube Inc 1/1 total=1339.705313s online=405.978697s RHS=2020
+UNIFIED com-Youtube Dynamic-Logdet 1/1 total=1745.588154s online=331.607768s RHS=2019
+DONE com-Youtube peak_rss_gb=12.9
+LOADED as-Skitter n=1696415 m=11095298 dmax=35455 15s
+UNIFIED as-Skitter CELF 1/1 total=4261.634014s online=969.257086s RHS=2019
+UNIFIED as-Skitter Inc 1/1 total=4597.453566s online=1394.090320s RHS=2020
+UNIFIED as-Skitter Dynamic-Logdet 1/1 total=5935.053646s online=1489.279018s RHS=2019
+DONE as-Skitter peak_rss_gb=12.9
+RUN_FINISHED 01:36:25
+LOADED com-DBLP n=317080 m=1049866 dmax=343 2s
+UNIFIED com-DBLP CELF 1/1 total=86.665920s online=16.991412s RHS=2019
+UNIFIED com-DBLP Inc 1/1 total=93.948653s online=27.841800s RHS=2020
+UNIFIED com-DBLP Dynamic-Logdet 1/1 total=90.419096s online=18.686505s RHS=2019
+DONE com-DBLP peak_rss_gb=2.2
+LOADED com-Amazon n=334863 m=925872 dmax=549 1s
+UNIFIED com-Amazon CELF 1/1 total=88.995493s online=15.403932s RHS=2019
+UNIFIED com-Amazon Inc 1/1 total=104.895204s online=23.673915s RHS=2020
+UNIFIED com-Amazon Dynamic-Logdet 1/1 total=95.086889s online=16.320432s RHS=2019
+DONE com-Amazon peak_rss_gb=2.4
+LOADED roadNet-PA n=1088092 m=1541898 dmax=9 3s
+UNIFIED roadNet-PA CELF 1/1 total=42.214688s online=7.213632s RHS=2019
+UNIFIED roadNet-PA Inc 1/1 total=54.469161s online=19.819330s RHS=2020
+UNIFIED roadNet-PA Dynamic-Logdet 1/1 total=41.298639s online=7.448828s RHS=2019
+DONE roadNet-PA peak_rss_gb=7.4
+LOADED web-Google n=875713 m=4322051 dmax=6332 7s
+UNIFIED web-Google CELF 1/1 total=1381.215128s online=255.516385s RHS=2019
+UNIFIED web-Google Inc 1/1 total=1482.575915s online=354.734778s RHS=2020
+UNIFIED web-Google Dynamic-Logdet 1/1 total=1670.472486s online=318.167196s RHS=2019
+DONE web-Google peak_rss_gb=7.4
+RUN_FINISHED 03:04:08
+QUEUE_A_DONE
+LOADED com-LiveJournal n=3997962 m=34681189 dmax=14815 48s
+UNIFIED com-LiveJournal CELF 1/1 total=8562.154771s online=1931.126574s RHS=2019
+UNIFIED com-LiveJournal Dynamic-Logdet 1/1 total=10876.115879s online=2527.762298s RHS=2019
+DONE com-LiveJournal peak_rss_gb=26.7
+RUN_FINISHED 08:28:57
+QUEUE_B_DONE
+LOADED com-LiveJournal n=3997962 m=34681189 dmax=14815 48s

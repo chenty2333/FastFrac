@@ -1,0 +1,23 @@
+{
+  "reason": "Execution transport disconnected; the outer process ended before completion.",
+  "incomplete_attempt_included": false,
+  "completed_repetitions": {
+    "CELF": 4,
+    "Inc": 3,
+    "Dynamic-Logdet": 3
+  },
+  "resume_scope": "Only missing BA-100k repetitions and five Naive first-round measurements; completed rows retained.",
+  "memory_oom_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\n",
+  "kernel_sha256": {
+    "unified_kernel.cpp": "8aa20f2eb967716ec3c306b4769c25482496ed7965f3eef134e3e51b7ae8fab6",
+    "unified_slq_kernel.cpp": "7470e2c719966f4feb88bbf5333fe4336a63a50fb424fa32460a713ff88062c1",
+    "unified_backend.py": "5ddd2de8e6b7e84886fe7b8a4ac2a3d73e27a8ddbbadde1a5f64f4425b25dc2f",
+    "unified_performance.py": "ad267d04411fbdfa8a3c30b0a22c3e0d8c12485a3af8a4ad0eca35bf5342044e"
+  },
+  "recovered_graph_cache": "BA-100000.npz regenerated with recorded NetworkX/NumPy generators and seeds; cache writes now atomic.",
+  "resumed_initial_iteration_traces_and_selection_match": {
+    "CELF": true,
+    "Inc": true,
+    "Dynamic-Logdet": true
+  }
+}

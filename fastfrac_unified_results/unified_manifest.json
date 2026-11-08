@@ -1,0 +1,62 @@
+{
+  "status": "complete",
+  "threads_max": 8,
+  "blas_threads": 1,
+  "repetitions": 5,
+  "backend": "C++17, -O3 -march=native -fopenmp; all deterministic paths share unified_kernel.cpp",
+  "parallelism": "independent RHS blocks; a single online RHS does not manufacture eight independent solves",
+  "timing_contract": "fresh scalar table for each method/repetition; Phase2 includes heap, copies, all rounds, rankone updates, true residual checks and rechecks",
+  "real_graph_policy": "all endpoint vertices, undirected simple graph, loops removed; disconnected components retained",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "networkx": "3.5",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "cpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           46 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  9\nOn-line CPU(s) list:                     0-8\nVendor ID:                               AuthenticAMD\nModel name:                              AMD EPYC 9V74 80-Core Processor\nBIOS Model name:                           CPU @ 0.0GHz\nBIOS CPU family:                         0\nCPU family:                              25\nModel:                                   17\nThread(s) per core:                      1\nCore(s) per socket:                      9\nSocket(s):                               1\nStepping:                                1\nBogoMIPS:                                5192.29\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx512_bf16 clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid pausefilter pfthreshold v_vmsave_vmload avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm arch_capabilities\nHypervisor vendor:                       KVM\nVirtualization type:                     full\nL1d cache:                               160 KiB (5 instances)\nL1i cache:                               160 KiB (5 instances)\nL2 cache:                                5 MiB (5 instances)\nL3 cache:                                32 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-8\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Vulnerable\nVulnerability Spec store bypass:         Vulnerable\nVulnerability Spectre v1:                Vulnerable: __user pointer sanitization and usercopy barriers only; no swapgs barriers\nVulnerability Spectre v2:                Vulnerable; STIBP: disabled; PBRSB-eIBRS: Not affected; BHI: Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Vulnerable\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n",
+  "groups": {
+    "main": {
+      "status": "complete",
+      "seconds": 1088.9453998150002
+    },
+    "multiscale": {
+      "status": "complete",
+      "seconds": 58.597417138999845
+    },
+    "curves": {
+      "status": "complete",
+      "seconds": 105.94821283800047
+    },
+    "scaling": {
+      "status": "complete",
+      "seconds_resume_driver_only": 691.5095441869998
+    },
+    "routes": {
+      "status": "complete",
+      "seconds": 504.6678383419994,
+      "execution": "preceding serialized stage"
+    },
+    "science": {
+      "status": "complete",
+      "component_seconds": {
+        "scan_downstream": 24.47998811600064,
+        "quadrature": 60.933662677999564,
+        "opt_controls": 0.5006174639993333,
+        "adaptive_controls": 11.079885815000125
+      },
+      "execution": "preceding serialized stage"
+    }
+  },
+  "compilation_seconds": 0.8873739930004376,
+  "source_sha256": {
+    "unified_backend.py": "5ddd2de8e6b7e84886fe7b8a4ac2a3d73e27a8ddbbadde1a5f64f4425b25dc2f",
+    "unified_routes_postprocess.py": "d8e47f90be406e62105b3967775880310767c1bbb52637dc1c96c0d8160891a6",
+    "unified_science.py": "b3af37f1d5bf96ace313b524c0504396133d725d663415f1a28d7bff0e40ca86",
+    "unified_performance.py": "cb5c806bfa9ae2292779e8d2e864cc2a996cc17a71a45c5c2bad2478a052aebc",
+    "unified_routes.py": "b247b2a6936f7ee1920363d17f413d9d72fab94495eca1139dd8c8ed1f1460ff",
+    "unified_kernel.cpp": "8aa20f2eb967716ec3c306b4769c25482496ed7965f3eef134e3e51b7ae8fab6",
+    "unified_slq_kernel.cpp": "7470e2c719966f4feb88bbf5333fe4336a63a50fb424fa32460a713ff88062c1"
+  },
+  "elapsed_seconds_resume_driver_only": 692.4018681199996,
+  "execution_note": "An interrupted outer driver was resumed from atomic per-repetition checkpoints. No incomplete optimization is included. The scaling resume duration is not the full scaling-stage duration. Native kernels, CPU model, thread caps, graph generators and seeds are unchanged."
+}

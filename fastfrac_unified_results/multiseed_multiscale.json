@@ -1,0 +1,5376 @@
+{
+  "alpha": 50.0,
+  "k": 15,
+  "q": 12,
+  "seeds": {
+    "sbm": [
+      20270001,
+      20270002,
+      20270003,
+      20270004,
+      20270005,
+      20270006,
+      20270007,
+      20270008,
+      20270009,
+      20270010
+    ],
+    "hetero": [
+      20271001,
+      20271002,
+      20271003,
+      20271004,
+      20271005,
+      20271006,
+      20271007,
+      20271008,
+      20271009,
+      20271010
+    ]
+  },
+  "sbm": [
+    {
+      "m": 5989,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            66,
+            51,
+            5,
+            81,
+            127,
+            31,
+            14,
+            79,
+            113,
+            43,
+            92,
+            56,
+            28,
+            99,
+            129
+          ],
+          "gain": {
+            "0.1": 0.8221455244413688,
+            "0.5": 25.95818797918122,
+            "0.85": 448.2497670713016
+          },
+          "heat": {
+            "0.05": 0.4801596955741067,
+            "0.2": 0.1277822737748555,
+            "1.0": 0.26380477684252696
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.0,
+            "mean_endpoint_weighted_degree_sum": 45.0,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 194.6,
+            "mean_endpoint_two_hop_reach_sum": 198.46666666666667,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Static": {
+          "selected": [
+            66,
+            5,
+            51,
+            71,
+            15,
+            14,
+            28,
+            46,
+            6,
+            48,
+            72,
+            49,
+            50,
+            81,
+            29
+          ],
+          "gain": {
+            "0.1": 0.7612122484903964,
+            "0.5": 25.574586490380575,
+            "0.85": 447.86231577120793
+          },
+          "heat": {
+            "0.05": 0.4808619509168769,
+            "0.2": 0.12493175695029869,
+            "1.0": 0.2416778273462324
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.6,
+            "mean_endpoint_weighted_degree_sum": 43.6,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 186.4,
+            "mean_endpoint_two_hop_reach_sum": 198.53333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            46,
+            5,
+            14,
+            15,
+            51,
+            66,
+            71,
+            28,
+            127,
+            113,
+            6,
+            48,
+            13,
+            26,
+            29
+          ],
+          "gain": {
+            "0.1": 0.7826583445982548,
+            "0.5": 25.9149144598357,
+            "0.85": 449.3611739179509
+          },
+          "heat": {
+            "0.05": 0.491701149539159,
+            "0.2": 0.13131024819660034,
+            "1.0": 0.25075410476672
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.266666666666666,
+            "mean_endpoint_weighted_degree_sum": 43.266666666666666,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 184.06666666666666,
+            "mean_endpoint_two_hop_reach_sum": 198.4,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "s0.1": {
+          "selected": [
+            66,
+            51,
+            5,
+            81,
+            127,
+            31,
+            14,
+            79,
+            113,
+            43,
+            71,
+            56,
+            33,
+            129,
+            29
+          ],
+          "gain": {
+            "0.1": 0.8227834662509982,
+            "0.5": 26.03426569954718,
+            "0.85": 448.76283544220314
+          },
+          "heat": {
+            "0.05": 0.48443394231137676,
+            "0.2": 0.12954760854801992,
+            "1.0": 0.2628439839653019
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 44.53333333333333,
+            "mean_endpoint_weighted_degree_sum": 44.53333333333333,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 191.46666666666667,
+            "mean_endpoint_two_hop_reach_sum": 198.53333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.01507542174310782,
+          "overlap_logdet": 12,
+          "celf_seconds": 0.19570670800749213,
+          "inc_seconds": 0.01244231300370302,
+          "celf_calls": 589,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 0.8227834662509982
+        },
+        "s0.5": {
+          "selected": [
+            46,
+            66,
+            15,
+            5,
+            127,
+            51,
+            71,
+            113,
+            14,
+            79,
+            28,
+            43,
+            33,
+            81,
+            129
+          ],
+          "gain": {
+            "0.1": 0.8224757166722707,
+            "0.5": 26.161210087308753,
+            "0.85": 449.6868243204117
+          },
+          "heat": {
+            "0.05": 0.4923219515797178,
+            "0.2": 0.1325205744643266,
+            "1.0": 0.2597370748455418
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.53333333333333,
+            "mean_endpoint_weighted_degree_sum": 43.53333333333333,
+            "mean_shared_two_hop_neighbors": 0.26666666666666666,
+            "mean_one_hop_ego_union_induced_edges": 186.2,
+            "mean_endpoint_two_hop_reach_sum": 198.46666666666667,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.01507542174310782,
+          "overlap_logdet": 11,
+          "celf_seconds": 0.08261678699636832,
+          "inc_seconds": 0.01203903800342232,
+          "celf_calls": 334,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 26.161210087308753
+        },
+        "s0.85": {
+          "selected": [
+            46,
+            66,
+            5,
+            15,
+            127,
+            28,
+            51,
+            14,
+            113,
+            71,
+            26,
+            33,
+            43,
+            6,
+            81
+          ],
+          "gain": {
+            "0.1": 0.8126718069011701,
+            "0.5": 26.12912521398407,
+            "0.85": 449.805818978112
+          },
+          "heat": {
+            "0.05": 0.4938408366312844,
+            "0.2": 0.1330199225465922,
+            "1.0": 0.2572125386241025
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.333333333333336,
+            "mean_endpoint_weighted_degree_sum": 43.333333333333336,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 183.8,
+            "mean_endpoint_two_hop_reach_sum": 198.4,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.01507542174310782,
+          "overlap_logdet": 9,
+          "celf_seconds": 0.028308873996138573,
+          "inc_seconds": 0.01160773700394202,
+          "celf_calls": 208,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 449.805818978112
+        }
+      },
+      "seed": 20270001
+    },
+    {
+      "m": 6053,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            104,
+            3,
+            42,
+            100,
+            50,
+            128,
+            93,
+            25,
+            78,
+            34,
+            56,
+            129,
+            48,
+            96,
+            98
+          ],
+          "gain": {
+            "0.1": 0.8290185333182324,
+            "0.5": 26.316957484000422,
+            "0.85": 450.33638375508644
+          },
+          "heat": {
+            "0.05": 0.4970545931064246,
+            "0.2": 0.14361413574744933,
+            "1.0": 0.26199480977661166
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.733333333333334,
+            "mean_endpoint_weighted_degree_sum": 43.733333333333334,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 187.86666666666667,
+            "mean_endpoint_two_hop_reach_sum": 197.93333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Static": {
+          "selected": [
+            104,
+            48,
+            28,
+            42,
+            82,
+            86,
+            93,
+            84,
+            100,
+            96,
+            99,
+            103,
+            3,
+            85,
+            94
+          ],
+          "gain": {
+            "0.1": 0.7886822300418859,
+            "0.5": 26.16936287485604,
+            "0.85": 450.7686460478046
+          },
+          "heat": {
+            "0.05": 0.5031824148339767,
+            "0.2": 0.1467476623553035,
+            "1.0": 0.24644046528894292
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.6,
+            "mean_endpoint_weighted_degree_sum": 42.6,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 180.8,
+            "mean_endpoint_two_hop_reach_sum": 197.73333333333332,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            104,
+            48,
+            28,
+            21,
+            42,
+            50,
+            82,
+            86,
+            93,
+            3,
+            12,
+            84,
+            99,
+            100,
+            4
+          ],
+          "gain": {
+            "0.1": 0.8076103784241528,
+            "0.5": 26.340675179054134,
+            "0.85": 451.36287126114684
+          },
+          "heat": {
+            "0.05": 0.5073124016619832,
+            "0.2": 0.14705670359266035,
+            "1.0": 0.24810019003651532
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.0,
+            "mean_endpoint_weighted_degree_sum": 42.0,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 174.0,
+            "mean_endpoint_two_hop_reach_sum": 197.8,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "s0.1": {
+          "selected": [
+            104,
+            3,
+            42,
+            93,
+            21,
+            128,
+            50,
+            122,
+            48,
+            96,
+            78,
+            13,
+            82,
+            25,
+            90
+          ],
+          "gain": {
+            "0.1": 0.8295416274498101,
+            "0.5": 26.38601663768085,
+            "0.85": 450.79741777447185
+          },
+          "heat": {
+            "0.05": 0.5009240294129738,
+            "0.2": 0.1457162166724995,
+            "1.0": 0.26082843131802547
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.333333333333336,
+            "mean_endpoint_weighted_degree_sum": 43.333333333333336,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 187.4,
+            "mean_endpoint_two_hop_reach_sum": 198.0,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.016205657459555635,
+          "overlap_logdet": 10,
+          "celf_seconds": 0.2016802730067866,
+          "inc_seconds": 0.012515840004198253,
+          "celf_calls": 577,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 0.8295416274498101
+        },
+        "s0.5": {
+          "selected": [
+            104,
+            48,
+            21,
+            93,
+            42,
+            3,
+            50,
+            82,
+            96,
+            28,
+            122,
+            86,
+            99,
+            128,
+            12
+          ],
+          "gain": {
+            "0.1": 0.8246301905355959,
+            "0.5": 26.495059831075118,
+            "0.85": 451.734261335706
+          },
+          "heat": {
+            "0.05": 0.5092213012219449,
+            "0.2": 0.15096243796423336,
+            "1.0": 0.25525438416136986
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.333333333333336,
+            "mean_endpoint_weighted_degree_sum": 42.333333333333336,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 177.86666666666667,
+            "mean_endpoint_two_hop_reach_sum": 197.8,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.016205657459555635,
+          "overlap_logdet": 8,
+          "celf_seconds": 0.08616586599964648,
+          "inc_seconds": 0.012804765996406786,
+          "celf_calls": 329,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 26.495059831075118
+        },
+        "s0.85": {
+          "selected": [
+            104,
+            48,
+            21,
+            42,
+            28,
+            50,
+            93,
+            82,
+            3,
+            96,
+            86,
+            100,
+            12,
+            78,
+            122
+          ],
+          "gain": {
+            "0.1": 0.8192449102614052,
+            "0.5": 26.483227493201362,
+            "0.85": 451.83707013311295
+          },
+          "heat": {
+            "0.05": 0.5102679081819709,
+            "0.2": 0.15083275068626395,
+            "1.0": 0.2547240132828436
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.2,
+            "mean_endpoint_weighted_degree_sum": 42.2,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 176.46666666666667,
+            "mean_endpoint_two_hop_reach_sum": 197.8,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.016205657459555635,
+          "overlap_logdet": 9,
+          "celf_seconds": 0.02685497399943415,
+          "inc_seconds": 0.012504509999416769,
+          "celf_calls": 201,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 451.83707013311295
+        }
+      },
+      "seed": 20270002
+    },
+    {
+      "m": 5926,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            89,
+            37,
+            83,
+            9,
+            51,
+            111,
+            95,
+            41,
+            57,
+            99,
+            70,
+            36,
+            49,
+            87,
+            44
+          ],
+          "gain": {
+            "0.1": 0.8192987249047105,
+            "0.5": 25.819067998122808,
+            "0.85": 447.42300634151013
+          },
+          "heat": {
+            "0.05": 0.47335651720273964,
+            "0.2": 0.12343393603283606,
+            "1.0": 0.2640357045769594
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.53333333333333,
+            "mean_endpoint_weighted_degree_sum": 45.53333333333333,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 198.73333333333332,
+            "mean_endpoint_two_hop_reach_sum": 198.4,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Static": {
+          "selected": [
+            89,
+            26,
+            83,
+            66,
+            10,
+            9,
+            95,
+            84,
+            37,
+            87,
+            94,
+            41,
+            49,
+            78,
+            36
+          ],
+          "gain": {
+            "0.1": 0.802436722027864,
+            "0.5": 25.73720806054362,
+            "0.85": 447.4544842488038
+          },
+          "heat": {
+            "0.05": 0.4746112984824426,
+            "0.2": 0.12449855875861801,
+            "1.0": 0.2586533900769163
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.2,
+            "mean_endpoint_weighted_degree_sum": 45.2,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 194.46666666666667,
+            "mean_endpoint_two_hop_reach_sum": 198.33333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            89,
+            26,
+            83,
+            51,
+            66,
+            9,
+            10,
+            111,
+            8,
+            37,
+            41,
+            49,
+            57,
+            84,
+            87
+          ],
+          "gain": {
+            "0.1": 0.8057964939465123,
+            "0.5": 25.772522319607276,
+            "0.85": 447.61039947673
+          },
+          "heat": {
+            "0.05": 0.4758731448782606,
+            "0.2": 0.12449750781182241,
+            "1.0": 0.25736037826419955
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 44.86666666666667,
+            "mean_endpoint_weighted_degree_sum": 44.86666666666667,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 193.93333333333334,
+            "mean_endpoint_two_hop_reach_sum": 198.33333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "s0.1": {
+          "selected": [
+            89,
+            37,
+            83,
+            9,
+            51,
+            111,
+            95,
+            41,
+            57,
+            99,
+            26,
+            70,
+            87,
+            49,
+            36
+          ],
+          "gain": {
+            "0.1": 0.8195336910196374,
+            "0.5": 25.867616668744482,
+            "0.85": 447.7416593808674
+          },
+          "heat": {
+            "0.05": 0.4760386103826387,
+            "0.2": 0.1255988938897043,
+            "1.0": 0.26293389748716045
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.266666666666666,
+            "mean_endpoint_weighted_degree_sum": 45.266666666666666,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 196.93333333333334,
+            "mean_endpoint_two_hop_reach_sum": 198.53333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.01545138583840962,
+          "overlap_logdet": 14,
+          "celf_seconds": 0.2025933429977158,
+          "inc_seconds": 0.011556147001101635,
+          "celf_calls": 624,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 0.8195336910196374
+        },
+        "s0.5": {
+          "selected": [
+            89,
+            83,
+            26,
+            51,
+            111,
+            37,
+            9,
+            66,
+            41,
+            94,
+            95,
+            49,
+            44,
+            99,
+            87
+          ],
+          "gain": {
+            "0.1": 0.8179467252761077,
+            "0.5": 25.884262938484078,
+            "0.85": 447.9147508929067
+          },
+          "heat": {
+            "0.05": 0.4776044068123627,
+            "0.2": 0.12633997146656373,
+            "1.0": 0.26198678049835755
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.06666666666667,
+            "mean_endpoint_weighted_degree_sum": 45.06666666666667,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 194.93333333333334,
+            "mean_endpoint_two_hop_reach_sum": 198.33333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.01545138583840962,
+          "overlap_logdet": 12,
+          "celf_seconds": 0.0977234580059303,
+          "inc_seconds": 0.012468889995943755,
+          "celf_calls": 373,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 25.884262938484078
+        },
+        "s0.85": {
+          "selected": [
+            89,
+            83,
+            26,
+            51,
+            111,
+            9,
+            66,
+            37,
+            41,
+            95,
+            94,
+            49,
+            87,
+            44,
+            78
+          ],
+          "gain": {
+            "0.1": 0.815887385813421,
+            "0.5": 25.87624434966999,
+            "0.85": 447.92191839311397
+          },
+          "heat": {
+            "0.05": 0.47775575676485493,
+            "0.2": 0.1266376226952855,
+            "1.0": 0.26174361784862227
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.06666666666667,
+            "mean_endpoint_weighted_degree_sum": 45.06666666666667,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 194.2,
+            "mean_endpoint_two_hop_reach_sum": 198.2,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.01545138583840962,
+          "overlap_logdet": 11,
+          "celf_seconds": 0.03428297700884286,
+          "inc_seconds": 0.011949905994697474,
+          "celf_calls": 224,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 447.92191839311397
+        }
+      },
+      "seed": 20270003
+    },
+    {
+      "m": 6002,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            84,
+            49,
+            15,
+            60,
+            50,
+            119,
+            68,
+            45,
+            120,
+            52,
+            35,
+            95,
+            97,
+            2,
+            107
+          ],
+          "gain": {
+            "0.1": 0.8185631954529295,
+            "0.5": 25.804062754692332,
+            "0.85": 447.2852588258119
+          },
+          "heat": {
+            "0.05": 0.47220948693165893,
+            "0.2": 0.12680566646691652,
+            "1.0": 0.26300712793929876
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.8,
+            "mean_endpoint_weighted_degree_sum": 45.73466666666666,
+            "mean_shared_two_hop_neighbors": 2.066666666666667,
+            "mean_one_hop_ego_union_induced_edges": 204.0,
+            "mean_endpoint_two_hop_reach_sum": 200.33333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Static": {
+          "selected": [
+            84,
+            107,
+            59,
+            68,
+            15,
+            97,
+            49,
+            45,
+            79,
+            54,
+            87,
+            35,
+            95,
+            46,
+            60
+          ],
+          "gain": {
+            "0.1": 0.7959328324995507,
+            "0.5": 25.669837591950326,
+            "0.85": 447.1304168494994
+          },
+          "heat": {
+            "0.05": 0.4721094129236816,
+            "0.2": 0.12734181257132518,
+            "1.0": 0.25810425134269027
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.53333333333333,
+            "mean_endpoint_weighted_degree_sum": 45.53333333333333,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 200.13333333333333,
+            "mean_endpoint_two_hop_reach_sum": 198.33333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            84,
+            107,
+            68,
+            50,
+            59,
+            15,
+            45,
+            49,
+            97,
+            119,
+            30,
+            35,
+            46,
+            47,
+            54
+          ],
+          "gain": {
+            "0.1": 0.8008264005185947,
+            "0.5": 25.705911908588906,
+            "0.85": 447.224154723536
+          },
+          "heat": {
+            "0.05": 0.47275767880121755,
+            "0.2": 0.12715687398321263,
+            "1.0": 0.2575829770647347
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.333333333333336,
+            "mean_endpoint_weighted_degree_sum": 45.333333333333336,
+            "mean_shared_two_hop_neighbors": 0.26666666666666666,
+            "mean_one_hop_ego_union_induced_edges": 199.73333333333332,
+            "mean_endpoint_two_hop_reach_sum": 198.33333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "s0.1": {
+          "selected": [
+            84,
+            49,
+            50,
+            119,
+            15,
+            60,
+            68,
+            45,
+            107,
+            52,
+            35,
+            95,
+            97,
+            120,
+            2
+          ],
+          "gain": {
+            "0.1": 0.8185631954529295,
+            "0.5": 25.804062754692332,
+            "0.85": 447.2852588258119
+          },
+          "heat": {
+            "0.05": 0.47220948693165893,
+            "0.2": 0.12680566646691652,
+            "1.0": 0.26300712793929876
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.8,
+            "mean_endpoint_weighted_degree_sum": 45.73466666666666,
+            "mean_shared_two_hop_neighbors": 2.066666666666667,
+            "mean_one_hop_ego_union_induced_edges": 204.0,
+            "mean_endpoint_two_hop_reach_sum": 200.33333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.017342132486687537,
+          "overlap_logdet": 15,
+          "celf_seconds": 0.21471096899767872,
+          "inc_seconds": 0.012785981001798064,
+          "celf_calls": 599,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 0.8185631954529295
+        },
+        "s0.5": {
+          "selected": [
+            84,
+            107,
+            50,
+            49,
+            68,
+            15,
+            95,
+            45,
+            119,
+            59,
+            35,
+            60,
+            97,
+            120,
+            47
+          ],
+          "gain": {
+            "0.1": 0.8160546581522292,
+            "0.5": 25.850163276195627,
+            "0.85": 447.68095590015054
+          },
+          "heat": {
+            "0.05": 0.47569273064234935,
+            "0.2": 0.1292054805525962,
+            "1.0": 0.2613134883578336
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.333333333333336,
+            "mean_endpoint_weighted_degree_sum": 45.333333333333336,
+            "mean_shared_two_hop_neighbors": 0.26666666666666666,
+            "mean_one_hop_ego_union_induced_edges": 200.33333333333334,
+            "mean_endpoint_two_hop_reach_sum": 198.4,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.017342132486687537,
+          "overlap_logdet": 13,
+          "celf_seconds": 0.09973382700991351,
+          "inc_seconds": 0.013252459990326315,
+          "celf_calls": 357,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 25.850163276195627
+        },
+        "s0.85": {
+          "selected": [
+            84,
+            107,
+            68,
+            50,
+            59,
+            49,
+            45,
+            119,
+            97,
+            15,
+            120,
+            95,
+            35,
+            60,
+            79
+          ],
+          "gain": {
+            "0.1": 0.8105822625614455,
+            "0.5": 25.838347746614094,
+            "0.85": 447.7601895270012
+          },
+          "heat": {
+            "0.05": 0.4765078150546885,
+            "0.2": 0.12986251664199253,
+            "1.0": 0.2614519663651556
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.333333333333336,
+            "mean_endpoint_weighted_degree_sum": 45.333333333333336,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 199.6,
+            "mean_endpoint_two_hop_reach_sum": 198.4,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.017342132486687537,
+          "overlap_logdet": 13,
+          "celf_seconds": 0.027960060004261322,
+          "inc_seconds": 0.012425722001353279,
+          "celf_calls": 203,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 447.7601895270012
+        }
+      },
+      "seed": 20270004
+    },
+    {
+      "m": 5811,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            16,
+            95,
+            10,
+            51,
+            119,
+            44,
+            1,
+            75,
+            36,
+            78,
+            122,
+            7,
+            46,
+            81,
+            41
+          ],
+          "gain": {
+            "0.1": 0.8239307749659687,
+            "0.5": 26.0502320680463,
+            "0.85": 448.8067615681545
+          },
+          "heat": {
+            "0.05": 0.48453814316632143,
+            "0.2": 0.13105786080483595,
+            "1.0": 0.2634891332446667
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 44.6,
+            "mean_endpoint_weighted_degree_sum": 44.6,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 184.2,
+            "mean_endpoint_two_hop_reach_sum": 198.26666666666668,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Static": {
+          "selected": [
+            16,
+            10,
+            3,
+            120,
+            9,
+            17,
+            2,
+            1,
+            95,
+            25,
+            93,
+            72,
+            51,
+            75,
+            80
+          ],
+          "gain": {
+            "0.1": 0.79679243983228,
+            "0.5": 26.1173974267465,
+            "0.85": 450.3045006838503
+          },
+          "heat": {
+            "0.05": 0.49922208651527483,
+            "0.2": 0.13817897404899782,
+            "1.0": 0.24636308984002409
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.4,
+            "mean_endpoint_weighted_degree_sum": 42.4,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 165.0,
+            "mean_endpoint_two_hop_reach_sum": 198.33333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            120,
+            16,
+            3,
+            10,
+            9,
+            127,
+            17,
+            119,
+            1,
+            2,
+            25,
+            51,
+            75,
+            95,
+            46
+          ],
+          "gain": {
+            "0.1": 0.7969457998741005,
+            "0.5": 26.279192429042205,
+            "0.85": 451.2791502429219
+          },
+          "heat": {
+            "0.05": 0.5067811464627829,
+            "0.2": 0.14318449293871874,
+            "1.0": 0.25069966036927543
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 41.93333333333333,
+            "mean_endpoint_weighted_degree_sum": 41.93333333333333,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 161.86666666666667,
+            "mean_endpoint_two_hop_reach_sum": 198.13333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "s0.1": {
+          "selected": [
+            120,
+            44,
+            10,
+            51,
+            1,
+            95,
+            3,
+            78,
+            16,
+            81,
+            127,
+            7,
+            9,
+            119,
+            75
+          ],
+          "gain": {
+            "0.1": 0.8262284688359507,
+            "0.5": 26.34617492954067,
+            "0.85": 450.7500344361768
+          },
+          "heat": {
+            "0.05": 0.5008512011880775,
+            "0.2": 0.1411709729551672,
+            "1.0": 0.25873070281135735
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.93333333333333,
+            "mean_endpoint_weighted_degree_sum": 42.93333333333333,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 170.86666666666667,
+            "mean_endpoint_two_hop_reach_sum": 198.13333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.01507542174310782,
+          "overlap_logdet": 11,
+          "celf_seconds": 0.2056451869866578,
+          "inc_seconds": 0.011677659000270069,
+          "celf_calls": 633,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 0.8262284688359507
+        },
+        "s0.5": {
+          "selected": [
+            120,
+            10,
+            16,
+            95,
+            3,
+            51,
+            9,
+            127,
+            44,
+            1,
+            119,
+            75,
+            17,
+            78,
+            46
+          ],
+          "gain": {
+            "0.1": 0.8207577486179461,
+            "0.5": 26.40445382023205,
+            "0.85": 451.339689697373
+          },
+          "heat": {
+            "0.05": 0.5060686497008484,
+            "0.2": 0.1435798972126901,
+            "1.0": 0.25645723732547737
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.333333333333336,
+            "mean_endpoint_weighted_degree_sum": 42.333333333333336,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 165.93333333333334,
+            "mean_endpoint_two_hop_reach_sum": 198.2,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.01507542174310782,
+          "overlap_logdet": 10,
+          "celf_seconds": 0.07755820800957736,
+          "inc_seconds": 0.011628654989181086,
+          "celf_calls": 327,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 26.40445382023205
+        },
+        "s0.85": {
+          "selected": [
+            120,
+            16,
+            10,
+            3,
+            127,
+            9,
+            17,
+            1,
+            119,
+            95,
+            51,
+            75,
+            46,
+            44,
+            36
+          ],
+          "gain": {
+            "0.1": 0.8143027562575179,
+            "0.5": 26.38809625044439,
+            "0.85": 451.41744784257025
+          },
+          "heat": {
+            "0.05": 0.5069436588331636,
+            "0.2": 0.14420202165223553,
+            "1.0": 0.25607414393121886
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.266666666666666,
+            "mean_endpoint_weighted_degree_sum": 42.266666666666666,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 166.4,
+            "mean_endpoint_two_hop_reach_sum": 198.13333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.01507542174310782,
+          "overlap_logdet": 10,
+          "celf_seconds": 0.024565186991821975,
+          "inc_seconds": 0.011891166999703273,
+          "celf_calls": 201,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": false,
+          "same_set_q54": true,
+          "q54_gain": 451.41744784257025
+        }
+      },
+      "seed": 20270005
+    },
+    {
+      "m": 5908,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            40,
+            80,
+            37,
+            88,
+            120,
+            5,
+            68,
+            19,
+            115,
+            21,
+            46,
+            75,
+            108,
+            6,
+            28
+          ],
+          "gain": {
+            "0.1": 0.823835558280552,
+            "0.5": 26.078859432038495,
+            "0.85": 449.03269287883967
+          },
+          "heat": {
+            "0.05": 0.486620337505689,
+            "0.2": 0.13060666590322006,
+            "1.0": 0.2627614178424196
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 44.333333333333336,
+            "mean_endpoint_weighted_degree_sum": 44.333333333333336,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 184.93333333333334,
+            "mean_endpoint_two_hop_reach_sum": 198.2,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Static": {
+          "selected": [
+            40,
+            80,
+            20,
+            6,
+            68,
+            38,
+            37,
+            64,
+            7,
+            46,
+            58,
+            19,
+            88,
+            108,
+            42
+          ],
+          "gain": {
+            "0.1": 0.7883978870555355,
+            "0.5": 25.93007262037677,
+            "0.85": 449.22593342805885
+          },
+          "heat": {
+            "0.05": 0.49016143019420966,
+            "0.2": 0.13223195901594287,
+            "1.0": 0.2534975548830013
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.733333333333334,
+            "mean_endpoint_weighted_degree_sum": 43.733333333333334,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 179.6,
+            "mean_endpoint_two_hop_reach_sum": 198.06666666666666,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            40,
+            6,
+            20,
+            80,
+            37,
+            38,
+            68,
+            120,
+            5,
+            64,
+            7,
+            21,
+            43,
+            115,
+            132
+          ],
+          "gain": {
+            "0.1": 0.8065134370689563,
+            "0.5": 26.14412575676016,
+            "0.85": 450.13525095795876
+          },
+          "heat": {
+            "0.05": 0.49703197484046,
+            "0.2": 0.1346258372719377,
+            "1.0": 0.25354910967632205
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.0,
+            "mean_endpoint_weighted_degree_sum": 43.0,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 175.86666666666667,
+            "mean_endpoint_two_hop_reach_sum": 198.0,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "s0.1": {
+          "selected": [
+            40,
+            80,
+            37,
+            88,
+            120,
+            5,
+            68,
+            19,
+            115,
+            21,
+            46,
+            75,
+            6,
+            108,
+            20
+          ],
+          "gain": {
+            "0.1": 0.8238356015371061,
+            "0.5": 26.139918270791703,
+            "0.85": 449.4688413576061
+          },
+          "heat": {
+            "0.05": 0.49034206765486815,
+            "0.2": 0.13230159687858373,
+            "1.0": 0.26114000222966177
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.86666666666667,
+            "mean_endpoint_weighted_degree_sum": 43.86666666666667,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 181.66666666666666,
+            "mean_endpoint_two_hop_reach_sum": 198.13333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.016583857162065164,
+          "overlap_logdet": 14,
+          "celf_seconds": 0.19519403099548072,
+          "inc_seconds": 0.013310923997778445,
+          "celf_calls": 594,
+          "inc_calls": 167,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 0.8238356015371061
+        },
+        "s0.5": {
+          "selected": [
+            40,
+            80,
+            37,
+            6,
+            68,
+            120,
+            20,
+            21,
+            88,
+            115,
+            38,
+            5,
+            64,
+            116,
+            43
+          ],
+          "gain": {
+            "0.1": 0.8193553819606101,
+            "0.5": 26.218037021617942,
+            "0.85": 450.18048529658256
+          },
+          "heat": {
+            "0.05": 0.4967109806650594,
+            "0.2": 0.13550193841272978,
+            "1.0": 0.25714436062487867
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.2,
+            "mean_endpoint_weighted_degree_sum": 43.2,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 175.93333333333334,
+            "mean_endpoint_two_hop_reach_sum": 197.86666666666667,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.016583857162065164,
+          "overlap_logdet": 10,
+          "celf_seconds": 0.07868314199731685,
+          "inc_seconds": 0.01198364001174923,
+          "celf_calls": 326,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": false,
+          "same_set_q54": true,
+          "q54_gain": 26.218037021617942
+        },
+        "s0.85": {
+          "selected": [
+            40,
+            80,
+            6,
+            68,
+            37,
+            20,
+            120,
+            38,
+            64,
+            21,
+            115,
+            5,
+            116,
+            46,
+            58
+          ],
+          "gain": {
+            "0.1": 0.8087098537519475,
+            "0.5": 26.17134506699844,
+            "0.85": 450.19646249387205
+          },
+          "heat": {
+            "0.05": 0.49720037130370204,
+            "0.2": 0.1355050771126913,
+            "1.0": 0.2566982466763442
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.2,
+            "mean_endpoint_weighted_degree_sum": 43.2,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 176.2,
+            "mean_endpoint_two_hop_reach_sum": 197.86666666666667,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.016583857162065164,
+          "overlap_logdet": 10,
+          "celf_seconds": 0.022799647005740553,
+          "inc_seconds": 0.012035091000143439,
+          "celf_calls": 195,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 450.19646249387205
+        }
+      },
+      "seed": 20270006
+    },
+    {
+      "m": 5867,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            57,
+            46,
+            60,
+            32,
+            14,
+            115,
+            58,
+            44,
+            95,
+            40,
+            49,
+            113,
+            52,
+            17,
+            75
+          ],
+          "gain": {
+            "0.1": 0.8258413339640612,
+            "0.5": 26.14641007436736,
+            "0.85": 449.39304696247615
+          },
+          "heat": {
+            "0.05": 0.4894579598587012,
+            "0.2": 0.13327646659569667,
+            "1.0": 0.263308013610281
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 44.2,
+            "mean_endpoint_weighted_degree_sum": 44.2,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 186.13333333333333,
+            "mean_endpoint_two_hop_reach_sum": 198.2,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Static": {
+          "selected": [
+            57,
+            60,
+            106,
+            46,
+            55,
+            53,
+            42,
+            58,
+            16,
+            52,
+            97,
+            96,
+            93,
+            92,
+            75
+          ],
+          "gain": {
+            "0.1": 0.7681731222225122,
+            "0.5": 25.98022194500958,
+            "0.85": 450.1850616649348
+          },
+          "heat": {
+            "0.05": 0.4990851682341659,
+            "0.2": 0.137571231501912,
+            "1.0": 0.2475192442328999
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.8,
+            "mean_endpoint_weighted_degree_sum": 42.8,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 175.33333333333334,
+            "mean_endpoint_two_hop_reach_sum": 198.4,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            57,
+            60,
+            106,
+            14,
+            41,
+            46,
+            58,
+            16,
+            42,
+            52,
+            53,
+            55,
+            93,
+            96,
+            97
+          ],
+          "gain": {
+            "0.1": 0.7800050219740682,
+            "0.5": 26.014480460055637,
+            "0.85": 450.1636100867968
+          },
+          "heat": {
+            "0.05": 0.49889290396540836,
+            "0.2": 0.13641041870472245,
+            "1.0": 0.24421721667232474
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.4,
+            "mean_endpoint_weighted_degree_sum": 42.4,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 172.66666666666666,
+            "mean_endpoint_two_hop_reach_sum": 198.26666666666668,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "s0.1": {
+          "selected": [
+            57,
+            46,
+            60,
+            32,
+            14,
+            115,
+            58,
+            44,
+            75,
+            40,
+            49,
+            113,
+            52,
+            16,
+            95
+          ],
+          "gain": {
+            "0.1": 0.8259533562336041,
+            "0.5": 26.179075229180746,
+            "0.85": 449.6268528516283
+          },
+          "heat": {
+            "0.05": 0.4914173320015718,
+            "0.2": 0.13377204151496952,
+            "1.0": 0.2627763157956908
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.93333333333333,
+            "mean_endpoint_weighted_degree_sum": 43.93333333333333,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 184.46666666666667,
+            "mean_endpoint_two_hop_reach_sum": 198.13333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.01507542174310782,
+          "overlap_logdet": 14,
+          "celf_seconds": 0.18983168799604755,
+          "inc_seconds": 0.011908483997103758,
+          "celf_calls": 588,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 0.8259533562336041
+        },
+        "s0.5": {
+          "selected": [
+            57,
+            60,
+            46,
+            41,
+            58,
+            16,
+            120,
+            106,
+            9,
+            42,
+            52,
+            92,
+            112,
+            14,
+            93
+          ],
+          "gain": {
+            "0.1": 0.817827937761791,
+            "0.5": 26.309898236462235,
+            "0.85": 450.81586328482945
+          },
+          "heat": {
+            "0.05": 0.5019756653392322,
+            "0.2": 0.13986721747581962,
+            "1.0": 0.25679063852595424
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.8,
+            "mean_endpoint_weighted_degree_sum": 42.8,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 176.93333333333334,
+            "mean_endpoint_two_hop_reach_sum": 198.06666666666666,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.01507542174310782,
+          "overlap_logdet": 6,
+          "celf_seconds": 0.08796220499789342,
+          "inc_seconds": 0.012118486003600992,
+          "celf_calls": 347,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 26.309898236462235
+        },
+        "s0.85": {
+          "selected": [
+            57,
+            60,
+            46,
+            41,
+            58,
+            106,
+            16,
+            52,
+            42,
+            93,
+            14,
+            112,
+            92,
+            120,
+            44
+          ],
+          "gain": {
+            "0.1": 0.8119602253275904,
+            "0.5": 26.29061029267839,
+            "0.85": 450.8646046652716
+          },
+          "heat": {
+            "0.05": 0.5025863622701447,
+            "0.2": 0.13994322225316583,
+            "1.0": 0.25633568375582366
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.733333333333334,
+            "mean_endpoint_weighted_degree_sum": 42.733333333333334,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 176.46666666666667,
+            "mean_endpoint_two_hop_reach_sum": 198.2,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.01507542174310782,
+          "overlap_logdet": 7,
+          "celf_seconds": 0.027429690002463758,
+          "inc_seconds": 0.011714049993315712,
+          "celf_calls": 206,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 450.8646046652716
+        }
+      },
+      "seed": 20270007
+    },
+    {
+      "m": 5779,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            33,
+            92,
+            24,
+            90,
+            119,
+            6,
+            0,
+            93,
+            43,
+            80,
+            124,
+            46,
+            42,
+            70,
+            32
+          ],
+          "gain": {
+            "0.1": 0.8275431545458298,
+            "0.5": 26.254555921432416,
+            "0.85": 449.9760804358631
+          },
+          "heat": {
+            "0.05": 0.49390198106429234,
+            "0.2": 0.14219844760734893,
+            "1.0": 0.26188473342282814
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.93333333333333,
+            "mean_endpoint_weighted_degree_sum": 43.93333333333333,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 180.4,
+            "mean_endpoint_two_hop_reach_sum": 198.46666666666667,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Static": {
+          "selected": [
+            33,
+            24,
+            0,
+            39,
+            17,
+            92,
+            32,
+            1,
+            2,
+            7,
+            43,
+            47,
+            41,
+            42,
+            80
+          ],
+          "gain": {
+            "0.1": 0.7760379014966174,
+            "0.5": 26.141344474227136,
+            "0.85": 450.9255917927401
+          },
+          "heat": {
+            "0.05": 0.5044888796881837,
+            "0.2": 0.14780272444161652,
+            "1.0": 0.24814751826339052
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.6,
+            "mean_endpoint_weighted_degree_sum": 42.6,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 172.33333333333334,
+            "mean_endpoint_two_hop_reach_sum": 198.4,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            33,
+            24,
+            0,
+            32,
+            39,
+            17,
+            92,
+            119,
+            1,
+            2,
+            7,
+            43,
+            41,
+            42,
+            47
+          ],
+          "gain": {
+            "0.1": 0.7702028540621465,
+            "0.5": 26.141828761194805,
+            "0.85": 451.0841138921944
+          },
+          "heat": {
+            "0.05": 0.5059903538034942,
+            "0.2": 0.14849261937165717,
+            "1.0": 0.24734250819262688
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.4,
+            "mean_endpoint_weighted_degree_sum": 42.4,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 170.0,
+            "mean_endpoint_two_hop_reach_sum": 198.33333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "s0.1": {
+          "selected": [
+            33,
+            92,
+            24,
+            90,
+            119,
+            46,
+            0,
+            93,
+            7,
+            80,
+            32,
+            124,
+            43,
+            39,
+            70
+          ],
+          "gain": {
+            "0.1": 0.8285319979175769,
+            "0.5": 26.34058551411269,
+            "0.85": 450.5325285280979
+          },
+          "heat": {
+            "0.05": 0.49852317360762927,
+            "0.2": 0.1446972255451316,
+            "1.0": 0.2609799271061582
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.46666666666667,
+            "mean_endpoint_weighted_degree_sum": 43.46666666666667,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 176.66666666666666,
+            "mean_endpoint_two_hop_reach_sum": 198.33333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.015828149457963517,
+          "overlap_logdet": 13,
+          "celf_seconds": 0.21611912100343034,
+          "inc_seconds": 0.01237133399990853,
+          "celf_calls": 633,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 0.8285319979175769
+        },
+        "s0.5": {
+          "selected": [
+            33,
+            24,
+            32,
+            92,
+            119,
+            0,
+            7,
+            39,
+            90,
+            80,
+            43,
+            17,
+            124,
+            30,
+            93
+          ],
+          "gain": {
+            "0.1": 0.8269769473562645,
+            "0.5": 26.418970674305708,
+            "0.85": 451.11381330536074
+          },
+          "heat": {
+            "0.05": 0.5034877216034157,
+            "0.2": 0.14793433066639483,
+            "1.0": 0.2593570761151515
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.0,
+            "mean_endpoint_weighted_degree_sum": 43.0,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 172.73333333333332,
+            "mean_endpoint_two_hop_reach_sum": 198.4,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.015828149457963517,
+          "overlap_logdet": 11,
+          "celf_seconds": 0.08358133200090379,
+          "inc_seconds": 0.012283340998692438,
+          "celf_calls": 331,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 26.418970674305708
+        },
+        "s0.85": {
+          "selected": [
+            33,
+            24,
+            32,
+            0,
+            39,
+            92,
+            119,
+            17,
+            7,
+            43,
+            2,
+            80,
+            124,
+            47,
+            30
+          ],
+          "gain": {
+            "0.1": 0.8037413332247129,
+            "0.5": 26.363816808433114,
+            "0.85": 451.4810004538344
+          },
+          "heat": {
+            "0.05": 0.5075819858563214,
+            "0.2": 0.1503642726503807,
+            "1.0": 0.25529741938996187
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 42.6,
+            "mean_endpoint_weighted_degree_sum": 42.6,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 169.93333333333334,
+            "mean_endpoint_two_hop_reach_sum": 198.4,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.015828149457963517,
+          "overlap_logdet": 9,
+          "celf_seconds": 0.027560680013266392,
+          "inc_seconds": 0.012479212004109286,
+          "celf_calls": 205,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 451.4810004538344
+        }
+      },
+      "seed": 20270008
+    },
+    {
+      "m": 6017,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            90,
+            39,
+            108,
+            47,
+            62,
+            28,
+            36,
+            94,
+            10,
+            99,
+            79,
+            32,
+            44,
+            96,
+            97
+          ],
+          "gain": {
+            "0.1": 0.8193217948090505,
+            "0.5": 25.854746158471105,
+            "0.85": 447.6603418093764
+          },
+          "heat": {
+            "0.05": 0.4754213249748986,
+            "0.2": 0.1251430571403525,
+            "1.0": 0.2630118229052621
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.333333333333336,
+            "mean_endpoint_weighted_degree_sum": 45.333333333333336,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 194.26666666666668,
+            "mean_endpoint_two_hop_reach_sum": 198.6,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Static": {
+          "selected": [
+            90,
+            14,
+            39,
+            40,
+            11,
+            36,
+            44,
+            62,
+            52,
+            73,
+            97,
+            8,
+            37,
+            34,
+            94
+          ],
+          "gain": {
+            "0.1": 0.770007291285605,
+            "0.5": 25.580029588855126,
+            "0.85": 447.5511513303662
+          },
+          "heat": {
+            "0.05": 0.47741163437235,
+            "0.2": 0.12389231756587252,
+            "1.0": 0.24805713239954938
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 44.4,
+            "mean_endpoint_weighted_degree_sum": 44.4,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 192.13333333333333,
+            "mean_endpoint_two_hop_reach_sum": 198.73333333333332,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            90,
+            97,
+            39,
+            40,
+            108,
+            11,
+            14,
+            36,
+            44,
+            106,
+            47,
+            52,
+            62,
+            73,
+            8
+          ],
+          "gain": {
+            "0.1": 0.7865224255959681,
+            "0.5": 25.70438764112228,
+            "0.85": 447.89507871587034
+          },
+          "heat": {
+            "0.05": 0.4797147777540211,
+            "0.2": 0.12499710492410858,
+            "1.0": 0.24805868945057521
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 43.93333333333333,
+            "mean_endpoint_weighted_degree_sum": 43.93333333333333,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 188.86666666666667,
+            "mean_endpoint_two_hop_reach_sum": 198.73333333333332,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "s0.1": {
+          "selected": [
+            90,
+            39,
+            108,
+            47,
+            62,
+            28,
+            36,
+            94,
+            97,
+            10,
+            32,
+            79,
+            44,
+            96,
+            99
+          ],
+          "gain": {
+            "0.1": 0.8193217948090505,
+            "0.5": 25.854746158471105,
+            "0.85": 447.6603418093764
+          },
+          "heat": {
+            "0.05": 0.4754213249748986,
+            "0.2": 0.1251430571403525,
+            "1.0": 0.2630118229052621
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.333333333333336,
+            "mean_endpoint_weighted_degree_sum": 45.333333333333336,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 194.26666666666668,
+            "mean_endpoint_two_hop_reach_sum": 198.6,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.016205657459555635,
+          "overlap_logdet": 15,
+          "celf_seconds": 0.20655591899412684,
+          "inc_seconds": 0.012286566008697264,
+          "celf_calls": 607,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 0.8193217948090505
+        },
+        "s0.5": {
+          "selected": [
+            90,
+            39,
+            108,
+            47,
+            97,
+            62,
+            36,
+            14,
+            44,
+            94,
+            10,
+            106,
+            73,
+            17,
+            28
+          ],
+          "gain": {
+            "0.1": 0.8175411599954283,
+            "0.5": 25.931733904237348,
+            "0.85": 448.2791195008585
+          },
+          "heat": {
+            "0.05": 0.4808671699067198,
+            "0.2": 0.1277788449931253,
+            "1.0": 0.25962432510136435
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 44.6,
+            "mean_endpoint_weighted_degree_sum": 44.6,
+            "mean_shared_two_hop_neighbors": 0.26666666666666666,
+            "mean_one_hop_ego_union_induced_edges": 191.0,
+            "mean_endpoint_two_hop_reach_sum": 198.66666666666666,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.016205657459555635,
+          "overlap_logdet": 11,
+          "celf_seconds": 0.10328709399618674,
+          "inc_seconds": 0.012161687991465442,
+          "celf_calls": 376,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 25.931733904237348
+        },
+        "s0.85": {
+          "selected": [
+            90,
+            97,
+            39,
+            108,
+            36,
+            44,
+            47,
+            40,
+            106,
+            14,
+            62,
+            10,
+            73,
+            34,
+            94
+          ],
+          "gain": {
+            "0.1": 0.8076516958030844,
+            "0.5": 25.917473589471175,
+            "0.85": 448.5424366557698
+          },
+          "heat": {
+            "0.05": 0.4836268015946657,
+            "0.2": 0.12846151523663024,
+            "1.0": 0.2565196316521286
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 44.2,
+            "mean_endpoint_weighted_degree_sum": 44.2,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 188.4,
+            "mean_endpoint_two_hop_reach_sum": 198.53333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.016205657459555635,
+          "overlap_logdet": 10,
+          "celf_seconds": 0.02916453299985733,
+          "inc_seconds": 0.012089222989743575,
+          "celf_calls": 209,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 448.5424366557698
+        }
+      },
+      "seed": 20270009
+    },
+    {
+      "m": 5925,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            47,
+            89,
+            52,
+            83,
+            7,
+            128,
+            50,
+            112,
+            86,
+            25,
+            79,
+            15,
+            69,
+            34,
+            124
+          ],
+          "gain": {
+            "0.1": 0.8168852395346599,
+            "0.5": 25.73541272169598,
+            "0.85": 446.92876109765035
+          },
+          "heat": {
+            "0.05": 0.469447080957225,
+            "0.2": 0.12218643998381687,
+            "1.0": 0.26328509066100014
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.86666666666667,
+            "mean_endpoint_weighted_degree_sum": 45.86666666666667,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 198.66666666666666,
+            "mean_endpoint_two_hop_reach_sum": 198.4,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Static": {
+          "selected": [
+            47,
+            89,
+            52,
+            87,
+            83,
+            86,
+            46,
+            32,
+            53,
+            58,
+            25,
+            68,
+            90,
+            124,
+            59
+          ],
+          "gain": {
+            "0.1": 0.78961611164299,
+            "0.5": 25.54636015525444,
+            "0.85": 446.64098512428717
+          },
+          "heat": {
+            "0.05": 0.4688816922760544,
+            "0.2": 0.12054293633361181,
+            "1.0": 0.25291927032838496
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.2,
+            "mean_endpoint_weighted_degree_sum": 45.2,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 199.13333333333333,
+            "mean_endpoint_two_hop_reach_sum": 198.26666666666668,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            124,
+            47,
+            89,
+            7,
+            50,
+            52,
+            83,
+            86,
+            25,
+            32,
+            46,
+            49,
+            53,
+            58,
+            68
+          ],
+          "gain": {
+            "0.1": 0.7956831316242055,
+            "0.5": 25.65329714768667,
+            "0.85": 447.152619075827
+          },
+          "heat": {
+            "0.05": 0.472815184388694,
+            "0.2": 0.12300053709337407,
+            "1.0": 0.25377722639736655
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.0,
+            "mean_endpoint_weighted_degree_sum": 45.0,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 195.33333333333334,
+            "mean_endpoint_two_hop_reach_sum": 198.2,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "s0.1": {
+          "selected": [
+            47,
+            89,
+            52,
+            83,
+            7,
+            128,
+            50,
+            124,
+            68,
+            27,
+            86,
+            34,
+            79,
+            15,
+            41
+          ],
+          "gain": {
+            "0.1": 0.8168300350404674,
+            "0.5": 25.73346322651487,
+            "0.85": 446.91992758166487
+          },
+          "heat": {
+            "0.05": 0.46937441376964995,
+            "0.2": 0.12204448690224726,
+            "1.0": 0.2632702723065213
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.86666666666667,
+            "mean_endpoint_weighted_degree_sum": 45.86666666666667,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 197.8,
+            "mean_endpoint_two_hop_reach_sum": 198.4,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.015828149457963517,
+          "overlap_logdet": 12,
+          "celf_seconds": 0.2019735289941309,
+          "inc_seconds": 0.012233137007569894,
+          "celf_calls": 611,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 0.8168300350404674
+        },
+        "s0.5": {
+          "selected": [
+            47,
+            89,
+            124,
+            7,
+            52,
+            83,
+            50,
+            86,
+            25,
+            58,
+            15,
+            87,
+            69,
+            53,
+            49
+          ],
+          "gain": {
+            "0.1": 0.8117626299220837,
+            "0.5": 25.795938229543495,
+            "0.85": 447.5473372218376
+          },
+          "heat": {
+            "0.05": 0.475105702516783,
+            "0.2": 0.12501569691047995,
+            "1.0": 0.2588908513672077
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.2,
+            "mean_endpoint_weighted_degree_sum": 45.2,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 194.33333333333334,
+            "mean_endpoint_two_hop_reach_sum": 198.33333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.015828149457963517,
+          "overlap_logdet": 11,
+          "celf_seconds": 0.09687638700415846,
+          "inc_seconds": 0.011969140003202483,
+          "celf_calls": 368,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 25.795938229543495
+        },
+        "s0.85": {
+          "selected": [
+            47,
+            124,
+            89,
+            7,
+            52,
+            83,
+            50,
+            86,
+            58,
+            25,
+            87,
+            69,
+            53,
+            49,
+            90
+          ],
+          "gain": {
+            "0.1": 0.8071650865642142,
+            "0.5": 25.781947057974484,
+            "0.85": 447.6080175905266
+          },
+          "heat": {
+            "0.05": 0.47583949185699376,
+            "0.2": 0.1252755083518049,
+            "1.0": 0.25788297474297184
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 45.06666666666667,
+            "mean_endpoint_weighted_degree_sum": 45.06666666666667,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 194.66666666666666,
+            "mean_endpoint_two_hop_reach_sum": 198.26666666666668,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.015828149457963517,
+          "overlap_logdet": 10,
+          "celf_seconds": 0.024851718990248628,
+          "inc_seconds": 0.01204707300348673,
+          "celf_calls": 200,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 447.6080175905266
+        }
+      },
+      "seed": 20270010
+    }
+  ],
+  "hetero": [
+    {
+      "m": 1167,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            43,
+            38,
+            53,
+            54,
+            47,
+            42,
+            49,
+            44,
+            57,
+            51,
+            50,
+            46,
+            52,
+            55,
+            24
+          ],
+          "gain": {
+            "0.1": 2.933100777460336,
+            "0.5": 75.15085247787293,
+            "0.85": 621.3471501404905
+          },
+          "heat": {
+            "0.05": 1.232246453711185,
+            "0.2": 3.325979187458899,
+            "1.0": 5.3009785456577
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.466666666666667,
+            "mean_endpoint_weighted_degree_sum": 7.35650130725177,
+            "mean_shared_two_hop_neighbors": 0.6666666666666666,
+            "mean_one_hop_ego_union_induced_edges": 7.6,
+            "mean_endpoint_two_hop_reach_sum": 59.266666666666666,
+            "selected_cross_block_edges": 14
+          },
+          "cross": 14
+        },
+        "Static": {
+          "selected": [
+            43,
+            38,
+            37,
+            54,
+            53,
+            42,
+            49,
+            47,
+            48,
+            44,
+            51,
+            57,
+            52,
+            50,
+            45
+          ],
+          "gain": {
+            "0.1": 2.861229638212266,
+            "0.5": 73.68512817963392,
+            "0.85": 616.6762888185557
+          },
+          "heat": {
+            "0.05": 1.2142139504887905,
+            "0.2": 3.244740025041559,
+            "1.0": 5.123033238938528
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.133333333333334,
+            "mean_endpoint_weighted_degree_sum": 7.994728171370007,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 6.866666666666666,
+            "mean_endpoint_two_hop_reach_sum": 55.93333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            43,
+            54,
+            38,
+            42,
+            37,
+            49,
+            24,
+            13,
+            2,
+            12,
+            39,
+            23,
+            35,
+            29,
+            6
+          ],
+          "gain": {
+            "0.1": 2.523955794205077,
+            "0.5": 73.42465620915067,
+            "0.85": 628.3746476964135
+          },
+          "heat": {
+            "0.05": 1.3200136404995773,
+            "0.2": 3.668833907266098,
+            "1.0": 4.059844870401081
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 11.133333333333333,
+            "mean_endpoint_weighted_degree_sum": 2.8467594031430696,
+            "mean_shared_two_hop_neighbors": 16.466666666666665,
+            "mean_one_hop_ego_union_induced_edges": 16.6,
+            "mean_endpoint_two_hop_reach_sum": 83.6,
+            "selected_cross_block_edges": 6
+          },
+          "cross": 6
+        },
+        "s0.1": {
+          "selected": [
+            43,
+            38,
+            54,
+            53,
+            42,
+            47,
+            49,
+            44,
+            51,
+            57,
+            50,
+            52,
+            46,
+            55,
+            24
+          ],
+          "gain": {
+            "0.1": 2.933100777460336,
+            "0.5": 75.15085247787293,
+            "0.85": 621.3471501404905
+          },
+          "heat": {
+            "0.05": 1.232246453711185,
+            "0.2": 3.325979187458899,
+            "1.0": 5.3009785456577
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.466666666666667,
+            "mean_endpoint_weighted_degree_sum": 7.35650130725177,
+            "mean_shared_two_hop_neighbors": 0.6666666666666666,
+            "mean_one_hop_ego_union_induced_edges": 7.6,
+            "mean_endpoint_two_hop_reach_sum": 59.266666666666666,
+            "selected_cross_block_edges": 14
+          },
+          "cross": 14,
+          "eta": 0.07066240177701756,
+          "overlap_logdet": 15,
+          "celf_seconds": 0.045429860008880496,
+          "inc_seconds": 0.027934205005294643,
+          "celf_calls": 189,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 2.933100777460336
+        },
+        "s0.5": {
+          "selected": [
+            43,
+            38,
+            54,
+            42,
+            49,
+            53,
+            47,
+            24,
+            13,
+            51,
+            50,
+            52,
+            55,
+            39,
+            23
+          ],
+          "gain": {
+            "0.1": 2.8402899969384228,
+            "0.5": 76.08876501023683,
+            "0.85": 630.2846952851748
+          },
+          "heat": {
+            "0.05": 1.2981588968839979,
+            "0.2": 3.5757354358223825,
+            "1.0": 4.918881176665768
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.933333333333334,
+            "mean_endpoint_weighted_degree_sum": 4.06697723680283,
+            "mean_shared_two_hop_neighbors": 6.733333333333333,
+            "mean_one_hop_ego_union_induced_edges": 10.533333333333333,
+            "mean_endpoint_two_hop_reach_sum": 65.93333333333334,
+            "selected_cross_block_edges": 11
+          },
+          "cross": 11,
+          "eta": 0.07066240177701756,
+          "overlap_logdet": 12,
+          "celf_seconds": 0.027067779010394588,
+          "inc_seconds": 0.027870916004758328,
+          "celf_calls": 172,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 76.08876501023683
+        },
+        "s0.85": {
+          "selected": [
+            43,
+            38,
+            54,
+            42,
+            49,
+            24,
+            13,
+            39,
+            53,
+            23,
+            47,
+            37,
+            35,
+            51,
+            2
+          ],
+          "gain": {
+            "0.1": 2.7477687257338963,
+            "0.5": 75.68467422246418,
+            "0.85": 631.6310243081457
+          },
+          "heat": {
+            "0.05": 1.313750181679738,
+            "0.2": 3.6630384903138524,
+            "1.0": 4.6217199155529185
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 8.8,
+            "mean_endpoint_weighted_degree_sum": 3.3320170944803684,
+            "mean_shared_two_hop_neighbors": 10.2,
+            "mean_one_hop_ego_union_induced_edges": 11.933333333333334,
+            "mean_endpoint_two_hop_reach_sum": 70.0,
+            "selected_cross_block_edges": 9
+          },
+          "cross": 9,
+          "eta": 0.07066240177701756,
+          "overlap_logdet": 9,
+          "celf_seconds": 0.023443218000466004,
+          "inc_seconds": 0.026568765999400057,
+          "celf_calls": 169,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 631.6310243081457
+        }
+      },
+      "seed": 20271001
+    },
+    {
+      "m": 1167,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            45,
+            51,
+            43,
+            48,
+            54,
+            49,
+            52,
+            41,
+            44,
+            56,
+            39,
+            53,
+            34,
+            46,
+            26
+          ],
+          "gain": {
+            "0.1": 2.8534798782131214,
+            "0.5": 74.75582925289315,
+            "0.85": 622.7261081118253
+          },
+          "heat": {
+            "0.05": 1.251276133081893,
+            "0.2": 3.391009220138853,
+            "1.0": 5.009719014116349
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.2,
+            "mean_endpoint_weighted_degree_sum": 6.2230785463749205,
+            "mean_shared_two_hop_neighbors": 3.0,
+            "mean_one_hop_ego_union_induced_edges": 9.0,
+            "mean_endpoint_two_hop_reach_sum": 61.13333333333333,
+            "selected_cross_block_edges": 13
+          },
+          "cross": 13
+        },
+        "Static": {
+          "selected": [
+            45,
+            46,
+            43,
+            51,
+            50,
+            48,
+            47,
+            49,
+            41,
+            54,
+            52,
+            42,
+            56,
+            55,
+            39
+          ],
+          "gain": {
+            "0.1": 2.660611385694196,
+            "0.5": 71.2653008980621,
+            "0.85": 613.1813425809385
+          },
+          "heat": {
+            "0.05": 1.230049358427522,
+            "0.2": 3.2061222246110224,
+            "1.0": 4.493442397491088
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.2,
+            "mean_endpoint_weighted_degree_sum": 6.547823180387147,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 6.733333333333333,
+            "mean_endpoint_two_hop_reach_sum": 57.86666666666667,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            45,
+            43,
+            48,
+            46,
+            41,
+            49,
+            34,
+            26,
+            35,
+            32,
+            20,
+            6,
+            19,
+            8,
+            16
+          ],
+          "gain": {
+            "0.1": 2.3930398272230247,
+            "0.5": 71.0187338053168,
+            "0.85": 621.7727464029837
+          },
+          "heat": {
+            "0.05": 1.3069890183578567,
+            "0.2": 3.538164421281247,
+            "1.0": 3.6566455953508212
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 12.8,
+            "mean_endpoint_weighted_degree_sum": 3.2546524430948596,
+            "mean_shared_two_hop_neighbors": 17.533333333333335,
+            "mean_one_hop_ego_union_induced_edges": 20.533333333333335,
+            "mean_endpoint_two_hop_reach_sum": 84.33333333333333,
+            "selected_cross_block_edges": 6
+          },
+          "cross": 6
+        },
+        "s0.1": {
+          "selected": [
+            45,
+            43,
+            51,
+            48,
+            49,
+            54,
+            41,
+            52,
+            56,
+            44,
+            39,
+            53,
+            34,
+            46,
+            26
+          ],
+          "gain": {
+            "0.1": 2.8534798782131214,
+            "0.5": 74.75582925289315,
+            "0.85": 622.7261081118253
+          },
+          "heat": {
+            "0.05": 1.251276133081893,
+            "0.2": 3.391009220138853,
+            "1.0": 5.009719014116349
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.2,
+            "mean_endpoint_weighted_degree_sum": 6.2230785463749205,
+            "mean_shared_two_hop_neighbors": 3.0,
+            "mean_one_hop_ego_union_induced_edges": 9.0,
+            "mean_endpoint_two_hop_reach_sum": 61.13333333333333,
+            "selected_cross_block_edges": 13
+          },
+          "cross": 13,
+          "eta": 0.07262838618393819,
+          "overlap_logdet": 15,
+          "celf_seconds": 0.043680896997102536,
+          "inc_seconds": 0.027794666006229818,
+          "celf_calls": 188,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 2.8534798782131214
+        },
+        "s0.5": {
+          "selected": [
+            45,
+            43,
+            48,
+            41,
+            49,
+            52,
+            54,
+            51,
+            34,
+            56,
+            46,
+            39,
+            26,
+            35,
+            20
+          ],
+          "gain": {
+            "0.1": 2.771922483959305,
+            "0.5": 74.81731078420968,
+            "0.85": 626.5602180101013
+          },
+          "heat": {
+            "0.05": 1.286434017916236,
+            "0.2": 3.5128607605335165,
+            "1.0": 4.705554126319133
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 8.6,
+            "mean_endpoint_weighted_degree_sum": 4.401148739870641,
+            "mean_shared_two_hop_neighbors": 6.266666666666667,
+            "mean_one_hop_ego_union_induced_edges": 12.266666666666667,
+            "mean_endpoint_two_hop_reach_sum": 67.06666666666666,
+            "selected_cross_block_edges": 11
+          },
+          "cross": 11,
+          "eta": 0.07262838618393819,
+          "overlap_logdet": 13,
+          "celf_seconds": 0.03219627701037098,
+          "inc_seconds": 0.02742138400208205,
+          "celf_calls": 178,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 74.81731078420968
+        },
+        "s0.85": {
+          "selected": [
+            45,
+            43,
+            48,
+            41,
+            49,
+            34,
+            46,
+            52,
+            26,
+            56,
+            54,
+            35,
+            39,
+            20,
+            6
+          ],
+          "gain": {
+            "0.1": 2.682067750367008,
+            "0.5": 74.19272927695464,
+            "0.85": 627.014015084695
+          },
+          "heat": {
+            "0.05": 1.3012650387930542,
+            "0.2": 3.5590007545799365,
+            "1.0": 4.438128179523233
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 9.6,
+            "mean_endpoint_weighted_degree_sum": 3.689757013812469,
+            "mean_shared_two_hop_neighbors": 9.133333333333333,
+            "mean_one_hop_ego_union_induced_edges": 14.2,
+            "mean_endpoint_two_hop_reach_sum": 71.33333333333333,
+            "selected_cross_block_edges": 10
+          },
+          "cross": 10,
+          "eta": 0.07262838618393819,
+          "overlap_logdet": 12,
+          "celf_seconds": 0.025758161005796865,
+          "inc_seconds": 0.026649495004676282,
+          "celf_calls": 172,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 627.014015084695
+        }
+      },
+      "seed": 20271002
+    },
+    {
+      "m": 1167,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            62,
+            42,
+            3,
+            48,
+            57,
+            44,
+            55,
+            52,
+            56,
+            43,
+            46,
+            41,
+            49,
+            51,
+            54
+          ],
+          "gain": {
+            "0.1": 2.9973723640137004,
+            "0.5": 75.37050702364299,
+            "0.85": 619.996352124487
+          },
+          "heat": {
+            "0.05": 1.2176621232161329,
+            "0.2": 3.273838906042071,
+            "1.0": 5.428761500522324
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 5.866666666666666,
+            "mean_endpoint_weighted_degree_sum": 8.075658981793714,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 6.6,
+            "mean_endpoint_two_hop_reach_sum": 54.93333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Static": {
+          "selected": [
+            62,
+            42,
+            3,
+            57,
+            43,
+            48,
+            55,
+            44,
+            52,
+            41,
+            56,
+            46,
+            47,
+            50,
+            49
+          ],
+          "gain": {
+            "0.1": 2.9411216432853946,
+            "0.5": 75.18769294862216,
+            "0.85": 621.8483635693484
+          },
+          "heat": {
+            "0.05": 1.24122856372363,
+            "0.2": 3.3236619197094903,
+            "1.0": 5.210038557721679
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 5.866666666666666,
+            "mean_endpoint_weighted_degree_sum": 6.568135753393445,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 6.6,
+            "mean_endpoint_two_hop_reach_sum": 54.2,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            57,
+            55,
+            41,
+            52,
+            19,
+            42,
+            43,
+            35,
+            16,
+            56,
+            24,
+            25,
+            28,
+            29,
+            33
+          ],
+          "gain": {
+            "0.1": 2.515886810345784,
+            "0.5": 72.57471029556666,
+            "0.85": 625.1257001477754
+          },
+          "heat": {
+            "0.05": 1.31030023897404,
+            "0.2": 3.5831581947032536,
+            "1.0": 3.961880316986628
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 10.6,
+            "mean_endpoint_weighted_degree_sum": 2.9664427339056596,
+            "mean_shared_two_hop_neighbors": 16.0,
+            "mean_one_hop_ego_union_induced_edges": 16.666666666666668,
+            "mean_endpoint_two_hop_reach_sum": 83.66666666666667,
+            "selected_cross_block_edges": 7
+          },
+          "cross": 7
+        },
+        "s0.1": {
+          "selected": [
+            62,
+            42,
+            57,
+            48,
+            55,
+            3,
+            44,
+            52,
+            56,
+            43,
+            41,
+            47,
+            49,
+            50,
+            53
+          ],
+          "gain": {
+            "0.1": 3.0019484136352266,
+            "0.5": 75.66333096942546,
+            "0.85": 621.6083142372916
+          },
+          "heat": {
+            "0.05": 1.2292040979344774,
+            "0.2": 3.301234032198088,
+            "1.0": 5.412929265358419
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 5.866666666666666,
+            "mean_endpoint_weighted_degree_sum": 7.310271342695059,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 6.6,
+            "mean_endpoint_two_hop_reach_sum": 55.733333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.06306662974707118,
+          "overlap_logdet": 12,
+          "celf_seconds": 0.04456712999672163,
+          "inc_seconds": 0.02753398599452339,
+          "celf_calls": 189,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": false,
+          "same_set_q54": true,
+          "q54_gain": 3.0019484136352266
+        },
+        "s0.5": {
+          "selected": [
+            42,
+            57,
+            55,
+            52,
+            41,
+            62,
+            56,
+            43,
+            48,
+            44,
+            47,
+            19,
+            35,
+            50,
+            25
+          ],
+          "gain": {
+            "0.1": 2.9099003479971377,
+            "0.5": 76.4675300232952,
+            "0.85": 629.530085823674
+          },
+          "heat": {
+            "0.05": 1.2855586447386134,
+            "0.2": 3.536955060836388,
+            "1.0": 5.0678764115905075
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.466666666666667,
+            "mean_endpoint_weighted_degree_sum": 4.580051222214924,
+            "mean_shared_two_hop_neighbors": 5.866666666666666,
+            "mean_one_hop_ego_union_induced_edges": 9.933333333333334,
+            "mean_endpoint_two_hop_reach_sum": 65.0,
+            "selected_cross_block_edges": 12
+          },
+          "cross": 12,
+          "eta": 0.06306662974707118,
+          "overlap_logdet": 10,
+          "celf_seconds": 0.029153809999115765,
+          "inc_seconds": 0.031040738002047874,
+          "celf_calls": 174,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 76.4675300232952
+        },
+        "s0.85": {
+          "selected": [
+            42,
+            57,
+            55,
+            52,
+            41,
+            56,
+            43,
+            19,
+            35,
+            48,
+            25,
+            47,
+            33,
+            27,
+            44
+          ],
+          "gain": {
+            "0.1": 2.774361625009553,
+            "0.5": 75.66642545052869,
+            "0.85": 630.8056977272953
+          },
+          "heat": {
+            "0.05": 1.3085639343723314,
+            "0.2": 3.63058888434221,
+            "1.0": 4.6601957318033715
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 8.8,
+            "mean_endpoint_weighted_degree_sum": 3.594650774365107,
+            "mean_shared_two_hop_neighbors": 9.4,
+            "mean_one_hop_ego_union_induced_edges": 12.533333333333333,
+            "mean_endpoint_two_hop_reach_sum": 73.2,
+            "selected_cross_block_edges": 10
+          },
+          "cross": 10,
+          "eta": 0.06306662974707118,
+          "overlap_logdet": 9,
+          "celf_seconds": 0.02857122098794207,
+          "inc_seconds": 0.02751969800738152,
+          "celf_calls": 174,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 630.8056977272953
+        }
+      },
+      "seed": 20271003
+    },
+    {
+      "m": 1167,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            53,
+            47,
+            50,
+            57,
+            56,
+            52,
+            45,
+            39,
+            37,
+            46,
+            48,
+            18,
+            28,
+            33,
+            98
+          ],
+          "gain": {
+            "0.1": 2.6695969983346055,
+            "0.5": 72.35879299796575,
+            "0.85": 618.7210097278679
+          },
+          "heat": {
+            "0.05": 1.2597142487857083,
+            "0.2": 3.3572539866944355,
+            "1.0": 4.441287869807478
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.6,
+            "mean_endpoint_weighted_degree_sum": 5.805146065690641,
+            "mean_shared_two_hop_neighbors": 4.0,
+            "mean_one_hop_ego_union_induced_edges": 9.933333333333334,
+            "mean_endpoint_two_hop_reach_sum": 70.8,
+            "selected_cross_block_edges": 12
+          },
+          "cross": 12
+        },
+        "Static": {
+          "selected": [
+            53,
+            47,
+            50,
+            51,
+            52,
+            39,
+            54,
+            57,
+            55,
+            45,
+            56,
+            37,
+            38,
+            40,
+            46
+          ],
+          "gain": {
+            "0.1": 2.530379637100038,
+            "0.5": 68.74523764922057,
+            "0.85": 605.9178364809721
+          },
+          "heat": {
+            "0.05": 1.2079161607906208,
+            "0.2": 3.085049102921127,
+            "1.0": 4.130383203384507
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.2,
+            "mean_endpoint_weighted_degree_sum": 7.68837404209776,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 7.133333333333334,
+            "mean_endpoint_two_hop_reach_sum": 66.06666666666666,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            50,
+            47,
+            39,
+            53,
+            51,
+            52,
+            28,
+            32,
+            18,
+            19,
+            20,
+            17,
+            33,
+            15,
+            24
+          ],
+          "gain": {
+            "0.1": 2.283657885344281,
+            "0.5": 69.21154222817077,
+            "0.85": 616.9694504537433
+          },
+          "heat": {
+            "0.05": 1.2959703967509941,
+            "0.2": 3.444477417144182,
+            "1.0": 3.4273457640996643
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 10.933333333333334,
+            "mean_endpoint_weighted_degree_sum": 3.022220272774802,
+            "mean_shared_two_hop_neighbors": 14.333333333333334,
+            "mean_one_hop_ego_union_induced_edges": 16.866666666666667,
+            "mean_endpoint_two_hop_reach_sum": 82.6,
+            "selected_cross_block_edges": 6
+          },
+          "cross": 6
+        },
+        "s0.1": {
+          "selected": [
+            53,
+            47,
+            50,
+            52,
+            55,
+            39,
+            57,
+            45,
+            37,
+            46,
+            48,
+            18,
+            28,
+            33,
+            17
+          ],
+          "gain": {
+            "0.1": 2.6714660352370636,
+            "0.5": 73.04903491074252,
+            "0.85": 621.9247837751446
+          },
+          "heat": {
+            "0.05": 1.2766032131232095,
+            "0.2": 3.428084614531127,
+            "1.0": 4.454496289944724
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 8.133333333333333,
+            "mean_endpoint_weighted_degree_sum": 4.882658998140328,
+            "mean_shared_two_hop_neighbors": 5.6,
+            "mean_one_hop_ego_union_induced_edges": 11.0,
+            "mean_endpoint_two_hop_reach_sum": 71.46666666666667,
+            "selected_cross_block_edges": 11
+          },
+          "cross": 11,
+          "eta": 0.07213880748248486,
+          "overlap_logdet": 13,
+          "celf_seconds": 0.07041317499533761,
+          "inc_seconds": 0.031159190999460407,
+          "celf_calls": 215,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 2.6714660352370636
+        },
+        "s0.5": {
+          "selected": [
+            53,
+            47,
+            50,
+            52,
+            39,
+            55,
+            28,
+            18,
+            45,
+            57,
+            37,
+            33,
+            48,
+            20,
+            13
+          ],
+          "gain": {
+            "0.1": 2.6280648384899306,
+            "0.5": 73.06142225762576,
+            "0.85": 623.6915822366317
+          },
+          "heat": {
+            "0.05": 1.2924768367534014,
+            "0.2": 3.4898289210905657,
+            "1.0": 4.300399546887111
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 8.8,
+            "mean_endpoint_weighted_degree_sum": 4.142963122399978,
+            "mean_shared_two_hop_neighbors": 8.066666666666666,
+            "mean_one_hop_ego_union_induced_edges": 11.933333333333334,
+            "mean_endpoint_two_hop_reach_sum": 75.4,
+            "selected_cross_block_edges": 10
+          },
+          "cross": 10,
+          "eta": 0.07213880748248486,
+          "overlap_logdet": 12,
+          "celf_seconds": 0.04157470099744387,
+          "inc_seconds": 0.030662903998745605,
+          "celf_calls": 185,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 73.06142225762576
+        },
+        "s0.85": {
+          "selected": [
+            53,
+            50,
+            47,
+            39,
+            52,
+            28,
+            18,
+            33,
+            55,
+            45,
+            37,
+            57,
+            20,
+            13,
+            48
+          ],
+          "gain": {
+            "0.1": 2.6280648384899306,
+            "0.5": 73.06142225762576,
+            "0.85": 623.6915822366317
+          },
+          "heat": {
+            "0.05": 1.2924768367534014,
+            "0.2": 3.4898289210905657,
+            "1.0": 4.300399546887111
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 8.8,
+            "mean_endpoint_weighted_degree_sum": 4.142963122399977,
+            "mean_shared_two_hop_neighbors": 8.066666666666666,
+            "mean_one_hop_ego_union_induced_edges": 11.933333333333334,
+            "mean_endpoint_two_hop_reach_sum": 75.4,
+            "selected_cross_block_edges": 10
+          },
+          "cross": 10,
+          "eta": 0.07213880748248486,
+          "overlap_logdet": 12,
+          "celf_seconds": 0.03288351399532985,
+          "inc_seconds": 0.03010613299557008,
+          "celf_calls": 177,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 623.6915822366317
+        }
+      },
+      "seed": 20271004
+    },
+    {
+      "m": 1167,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            50,
+            45,
+            56,
+            49,
+            47,
+            22,
+            54,
+            53,
+            48,
+            55,
+            43,
+            37,
+            20,
+            57,
+            35
+          ],
+          "gain": {
+            "0.1": 2.800497962378945,
+            "0.5": 73.55845540985659,
+            "0.85": 619.4880936947657
+          },
+          "heat": {
+            "0.05": 1.2492744984534474,
+            "0.2": 3.3091992578316756,
+            "1.0": 4.801300101790419
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.733333333333333,
+            "mean_endpoint_weighted_degree_sum": 6.044133467176362,
+            "mean_shared_two_hop_neighbors": 3.0,
+            "mean_one_hop_ego_union_induced_edges": 9.4,
+            "mean_endpoint_two_hop_reach_sum": 66.93333333333334,
+            "selected_cross_block_edges": 13
+          },
+          "cross": 13
+        },
+        "Static": {
+          "selected": [
+            50,
+            56,
+            45,
+            46,
+            22,
+            49,
+            51,
+            52,
+            57,
+            47,
+            54,
+            23,
+            48,
+            43,
+            24
+          ],
+          "gain": {
+            "0.1": 2.6672520210939124,
+            "0.5": 70.55853368308232,
+            "0.85": 609.9461513818545
+          },
+          "heat": {
+            "0.05": 1.2170632269261692,
+            "0.2": 3.1217466894089654,
+            "1.0": 4.436284204260572
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.266666666666667,
+            "mean_endpoint_weighted_degree_sum": 7.023767115862225,
+            "mean_shared_two_hop_neighbors": 0.2,
+            "mean_one_hop_ego_union_induced_edges": 7.266666666666667,
+            "mean_endpoint_two_hop_reach_sum": 60.46666666666667,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            56,
+            5,
+            37,
+            22,
+            52,
+            50,
+            49,
+            43,
+            39,
+            20,
+            33,
+            21,
+            13,
+            32,
+            17
+          ],
+          "gain": {
+            "0.1": 2.345906170490379,
+            "0.5": 69.60645359182809,
+            "0.85": 616.6161345868373
+          },
+          "heat": {
+            "0.05": 1.2897041390809576,
+            "0.2": 3.398673623690103,
+            "1.0": 3.5781892180451043
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 12.466666666666667,
+            "mean_endpoint_weighted_degree_sum": 3.1715896506127863,
+            "mean_shared_two_hop_neighbors": 16.266666666666666,
+            "mean_one_hop_ego_union_induced_edges": 17.533333333333335,
+            "mean_endpoint_two_hop_reach_sum": 86.33333333333333,
+            "selected_cross_block_edges": 6
+          },
+          "cross": 6
+        },
+        "s0.1": {
+          "selected": [
+            50,
+            56,
+            45,
+            49,
+            22,
+            47,
+            54,
+            52,
+            48,
+            55,
+            43,
+            37,
+            20,
+            57,
+            35
+          ],
+          "gain": {
+            "0.1": 2.8045626398569707,
+            "0.5": 74.09269828559601,
+            "0.85": 622.1784557124688
+          },
+          "heat": {
+            "0.05": 1.2656787343017168,
+            "0.2": 3.367432023233728,
+            "1.0": 4.7912058914278575
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.733333333333333,
+            "mean_endpoint_weighted_degree_sum": 5.07608815049852,
+            "mean_shared_two_hop_neighbors": 3.0,
+            "mean_one_hop_ego_union_induced_edges": 9.4,
+            "mean_endpoint_two_hop_reach_sum": 66.26666666666667,
+            "selected_cross_block_edges": 13
+          },
+          "cross": 13,
+          "eta": 0.05783853140936696,
+          "overlap_logdet": 14,
+          "celf_seconds": 0.061694367992458865,
+          "inc_seconds": 0.03251512200222351,
+          "celf_calls": 203,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 2.8045626398569707
+        },
+        "s0.5": {
+          "selected": [
+            56,
+            50,
+            22,
+            49,
+            52,
+            45,
+            54,
+            47,
+            43,
+            48,
+            37,
+            20,
+            55,
+            5,
+            32
+          ],
+          "gain": {
+            "0.1": 2.7969168051560644,
+            "0.5": 74.70523809017261,
+            "0.85": 625.1196439139992
+          },
+          "heat": {
+            "0.05": 1.2785192924004174,
+            "0.2": 3.453606221754884,
+            "1.0": 4.7839818857204675
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 8.666666666666666,
+            "mean_endpoint_weighted_degree_sum": 4.610173849995278,
+            "mean_shared_two_hop_neighbors": 6.8,
+            "mean_one_hop_ego_union_induced_edges": 10.933333333333334,
+            "mean_endpoint_two_hop_reach_sum": 70.53333333333333,
+            "selected_cross_block_edges": 11
+          },
+          "cross": 11,
+          "eta": 0.05783853140936696,
+          "overlap_logdet": 12,
+          "celf_seconds": 0.039179952000267804,
+          "inc_seconds": 0.031950582007993944,
+          "celf_calls": 181,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 74.70523809017261
+        },
+        "s0.85": {
+          "selected": [
+            56,
+            50,
+            22,
+            49,
+            52,
+            37,
+            54,
+            45,
+            20,
+            43,
+            47,
+            48,
+            5,
+            32,
+            39
+          ],
+          "gain": {
+            "0.1": 2.74422976596268,
+            "0.5": 74.59554331511609,
+            "0.85": 626.6371967763422
+          },
+          "heat": {
+            "0.05": 1.2942424118413964,
+            "0.2": 3.5117223544828855,
+            "1.0": 4.612597726099258
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 9.266666666666667,
+            "mean_endpoint_weighted_degree_sum": 3.8098066818258816,
+            "mean_shared_two_hop_neighbors": 8.133333333333333,
+            "mean_one_hop_ego_union_induced_edges": 11.6,
+            "mean_endpoint_two_hop_reach_sum": 72.2,
+            "selected_cross_block_edges": 10
+          },
+          "cross": 10,
+          "eta": 0.05783853140936696,
+          "overlap_logdet": 11,
+          "celf_seconds": 0.03136895000352524,
+          "inc_seconds": 0.031005462995381095,
+          "celf_calls": 174,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 626.6371967763422
+        }
+      },
+      "seed": 20271005
+    },
+    {
+      "m": 1167,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            49,
+            56,
+            52,
+            37,
+            55,
+            45,
+            51,
+            39,
+            54,
+            57,
+            41,
+            44,
+            38,
+            93,
+            27
+          ],
+          "gain": {
+            "0.1": 2.805693856740268,
+            "0.5": 73.4718009351404,
+            "0.85": 618.6525445852955
+          },
+          "heat": {
+            "0.05": 1.2401732428071834,
+            "0.2": 3.306831837804229,
+            "1.0": 4.8298419799308485
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.2,
+            "mean_endpoint_weighted_degree_sum": 6.743122721006265,
+            "mean_shared_two_hop_neighbors": 2.6666666666666665,
+            "mean_one_hop_ego_union_induced_edges": 8.266666666666667,
+            "mean_endpoint_two_hop_reach_sum": 60.93333333333333,
+            "selected_cross_block_edges": 13
+          },
+          "cross": 13
+        },
+        "Static": {
+          "selected": [
+            49,
+            48,
+            56,
+            52,
+            55,
+            45,
+            37,
+            39,
+            50,
+            57,
+            51,
+            54,
+            53,
+            41,
+            40
+          ],
+          "gain": {
+            "0.1": 2.6717704072656208,
+            "0.5": 71.44563286751217,
+            "0.85": 613.5247632077609
+          },
+          "heat": {
+            "0.05": 1.2300440057750646,
+            "0.2": 3.2088123997411633,
+            "1.0": 4.545720354861047
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.066666666666666,
+            "mean_endpoint_weighted_degree_sum": 6.772133572312951,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 6.4,
+            "mean_endpoint_two_hop_reach_sum": 61.2,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            55,
+            49,
+            48,
+            45,
+            52,
+            39,
+            38,
+            27,
+            3,
+            30,
+            12,
+            22,
+            31,
+            23,
+            11
+          ],
+          "gain": {
+            "0.1": 2.347780391519634,
+            "0.5": 70.09734016144323,
+            "0.85": 618.9975101436489
+          },
+          "heat": {
+            "0.05": 1.2997837398480785,
+            "0.2": 3.4756574822474087,
+            "1.0": 3.545862489314341
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 12.533333333333333,
+            "mean_endpoint_weighted_degree_sum": 3.159444118006932,
+            "mean_shared_two_hop_neighbors": 14.533333333333333,
+            "mean_one_hop_ego_union_induced_edges": 17.533333333333335,
+            "mean_endpoint_two_hop_reach_sum": 79.8,
+            "selected_cross_block_edges": 6
+          },
+          "cross": 6
+        },
+        "s0.1": {
+          "selected": [
+            49,
+            56,
+            52,
+            55,
+            45,
+            37,
+            39,
+            50,
+            54,
+            57,
+            41,
+            44,
+            38,
+            12,
+            30
+          ],
+          "gain": {
+            "0.1": 2.816980823397134,
+            "0.5": 74.47756117391553,
+            "0.85": 623.0595661421405
+          },
+          "heat": {
+            "0.05": 1.2612686385895409,
+            "0.2": 3.412008876766967,
+            "1.0": 4.866761023674444
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 8.066666666666666,
+            "mean_endpoint_weighted_degree_sum": 5.859460014746703,
+            "mean_shared_two_hop_neighbors": 5.266666666666667,
+            "mean_one_hop_ego_union_induced_edges": 9.933333333333334,
+            "mean_endpoint_two_hop_reach_sum": 68.13333333333334,
+            "selected_cross_block_edges": 12
+          },
+          "cross": 12,
+          "eta": 0.05423203624860865,
+          "overlap_logdet": 12,
+          "celf_seconds": 0.05753327599086333,
+          "inc_seconds": 0.03136237501166761,
+          "celf_calls": 200,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 2.816980823397134
+        },
+        "s0.5": {
+          "selected": [
+            49,
+            55,
+            52,
+            45,
+            39,
+            56,
+            37,
+            57,
+            50,
+            38,
+            41,
+            54,
+            30,
+            12,
+            22
+          ],
+          "gain": {
+            "0.1": 2.7812096953014147,
+            "0.5": 74.63461152927287,
+            "0.85": 625.5844164048624
+          },
+          "heat": {
+            "0.05": 1.283215503707426,
+            "0.2": 3.482504385770908,
+            "1.0": 4.700520158117511
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 8.666666666666666,
+            "mean_endpoint_weighted_degree_sum": 4.728096095770898,
+            "mean_shared_two_hop_neighbors": 7.333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 11.266666666666667,
+            "mean_endpoint_two_hop_reach_sum": 70.93333333333334,
+            "selected_cross_block_edges": 11
+          },
+          "cross": 11,
+          "eta": 0.05423203624860865,
+          "overlap_logdet": 11,
+          "celf_seconds": 0.030670069987536408,
+          "inc_seconds": 0.030864660991937853,
+          "celf_calls": 172,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 74.63461152927287
+        },
+        "s0.85": {
+          "selected": [
+            49,
+            55,
+            52,
+            45,
+            39,
+            56,
+            38,
+            57,
+            37,
+            30,
+            12,
+            41,
+            50,
+            22,
+            27
+          ],
+          "gain": {
+            "0.1": 2.7327267591409328,
+            "0.5": 74.51208151696841,
+            "0.85": 626.889618536499
+          },
+          "heat": {
+            "0.05": 1.2974182001634398,
+            "0.2": 3.5318806120723525,
+            "1.0": 4.53919500839038
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 9.2,
+            "mean_endpoint_weighted_degree_sum": 3.967332084003545,
+            "mean_shared_two_hop_neighbors": 8.733333333333333,
+            "mean_one_hop_ego_union_induced_edges": 12.133333333333333,
+            "mean_endpoint_two_hop_reach_sum": 72.0,
+            "selected_cross_block_edges": 10
+          },
+          "cross": 10,
+          "eta": 0.05423203624860865,
+          "overlap_logdet": 11,
+          "celf_seconds": 0.030491211990010925,
+          "inc_seconds": 0.030503249989124015,
+          "celf_calls": 173,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 626.889618536499
+        }
+      },
+      "seed": 20271006
+    },
+    {
+      "m": 1167,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            46,
+            44,
+            40,
+            39,
+            41,
+            52,
+            33,
+            55,
+            57,
+            54,
+            49,
+            43,
+            51,
+            56,
+            53
+          ],
+          "gain": {
+            "0.1": 2.9626246273358356,
+            "0.5": 75.20930695616825,
+            "0.85": 620.5920199058579
+          },
+          "heat": {
+            "0.05": 1.2263361428788815,
+            "0.2": 3.2794221864929347,
+            "1.0": 5.410060616667039
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.133333333333334,
+            "mean_endpoint_weighted_degree_sum": 7.412150623054028,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 7.466666666666667,
+            "mean_endpoint_two_hop_reach_sum": 58.53333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Static": {
+          "selected": [
+            46,
+            44,
+            40,
+            39,
+            47,
+            52,
+            49,
+            48,
+            41,
+            57,
+            33,
+            55,
+            54,
+            51,
+            43
+          ],
+          "gain": {
+            "0.1": 2.845274870452768,
+            "0.5": 73.18818917406679,
+            "0.85": 615.210254895879
+          },
+          "heat": {
+            "0.05": 1.2127004052552852,
+            "0.2": 3.1980798977379936,
+            "1.0": 5.059620236990483
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.0,
+            "mean_endpoint_weighted_degree_sum": 7.858066212418633,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 7.133333333333334,
+            "mean_endpoint_two_hop_reach_sum": 57.733333333333334,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            39,
+            46,
+            40,
+            57,
+            49,
+            52,
+            25,
+            27,
+            30,
+            29,
+            28,
+            32,
+            35,
+            7,
+            21
+          ],
+          "gain": {
+            "0.1": 2.4039564917906677,
+            "0.5": 70.97717980604043,
+            "0.85": 621.2281664374765
+          },
+          "heat": {
+            "0.05": 1.3036217734135684,
+            "0.2": 3.514953326927777,
+            "1.0": 3.7067844212798673
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 11.2,
+            "mean_endpoint_weighted_degree_sum": 3.1716094725617383,
+            "mean_shared_two_hop_neighbors": 13.733333333333333,
+            "mean_one_hop_ego_union_induced_edges": 16.4,
+            "mean_endpoint_two_hop_reach_sum": 77.46666666666667,
+            "selected_cross_block_edges": 6
+          },
+          "cross": 6
+        },
+        "s0.1": {
+          "selected": [
+            46,
+            40,
+            44,
+            39,
+            52,
+            41,
+            57,
+            49,
+            55,
+            33,
+            43,
+            54,
+            51,
+            56,
+            53
+          ],
+          "gain": {
+            "0.1": 2.9626246273358356,
+            "0.5": 75.20930695616825,
+            "0.85": 620.5920199058579
+          },
+          "heat": {
+            "0.05": 1.2263361428788815,
+            "0.2": 3.2794221864929347,
+            "1.0": 5.410060616667039
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.133333333333334,
+            "mean_endpoint_weighted_degree_sum": 7.412150623054028,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 7.466666666666667,
+            "mean_endpoint_two_hop_reach_sum": 58.53333333333333,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15,
+          "eta": 0.07233284412496419,
+          "overlap_logdet": 15,
+          "celf_seconds": 0.048318432993255556,
+          "inc_seconds": 0.032122867996804416,
+          "celf_calls": 188,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": false,
+          "same_set_q54": true,
+          "q54_gain": 2.9626246273358356
+        },
+        "s0.5": {
+          "selected": [
+            46,
+            39,
+            40,
+            52,
+            57,
+            49,
+            44,
+            43,
+            55,
+            25,
+            53,
+            56,
+            30,
+            27,
+            41
+          ],
+          "gain": {
+            "0.1": 2.852659186406152,
+            "0.5": 75.62988772124933,
+            "0.85": 627.5061492801375
+          },
+          "heat": {
+            "0.05": 1.280987217390776,
+            "0.2": 3.5075909344748974,
+            "1.0": 4.96274513313316
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.333333333333333,
+            "mean_endpoint_weighted_degree_sum": 4.963206575383633,
+            "mean_shared_two_hop_neighbors": 4.466666666666667,
+            "mean_one_hop_ego_union_induced_edges": 9.266666666666667,
+            "mean_endpoint_two_hop_reach_sum": 64.53333333333333,
+            "selected_cross_block_edges": 12
+          },
+          "cross": 12,
+          "eta": 0.07233284412496419,
+          "overlap_logdet": 12,
+          "celf_seconds": 0.03158920499845408,
+          "inc_seconds": 0.03208226499555167,
+          "celf_calls": 172,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 75.62988772124933
+        },
+        "s0.85": {
+          "selected": [
+            46,
+            39,
+            40,
+            57,
+            52,
+            49,
+            25,
+            27,
+            44,
+            30,
+            43,
+            55,
+            53,
+            56,
+            28
+          ],
+          "gain": {
+            "0.1": 2.788114929776161,
+            "0.5": 75.29424316710775,
+            "0.85": 628.5282782660563
+          },
+          "heat": {
+            "0.05": 1.2971541839203264,
+            "0.2": 3.5508530762924253,
+            "1.0": 4.747731239475882
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.866666666666666,
+            "mean_endpoint_weighted_degree_sum": 4.0059954986085735,
+            "mean_shared_two_hop_neighbors": 5.333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 10.066666666666666,
+            "mean_endpoint_two_hop_reach_sum": 66.46666666666667,
+            "selected_cross_block_edges": 11
+          },
+          "cross": 11,
+          "eta": 0.07233284412496419,
+          "overlap_logdet": 11,
+          "celf_seconds": 0.02915295399725437,
+          "inc_seconds": 0.03051459600101225,
+          "celf_calls": 171,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 628.5282782660563
+        }
+      },
+      "seed": 20271007
+    },
+    {
+      "m": 1167,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            55,
+            52,
+            56,
+            54,
+            45,
+            51,
+            36,
+            48,
+            50,
+            39,
+            47,
+            49,
+            43,
+            28,
+            44
+          ],
+          "gain": {
+            "0.1": 2.8432244125774884,
+            "0.5": 74.03440368377255,
+            "0.85": 619.1724540480378
+          },
+          "heat": {
+            "0.05": 1.2302152546769827,
+            "0.2": 3.3166934710391267,
+            "1.0": 5.045127651426774
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.533333333333333,
+            "mean_endpoint_weighted_degree_sum": 7.484377724440975,
+            "mean_shared_two_hop_neighbors": 0.9333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 7.733333333333333,
+            "mean_endpoint_two_hop_reach_sum": 60.333333333333336,
+            "selected_cross_block_edges": 14
+          },
+          "cross": 14
+        },
+        "Static": {
+          "selected": [
+            55,
+            52,
+            56,
+            45,
+            44,
+            53,
+            48,
+            54,
+            39,
+            51,
+            36,
+            37,
+            46,
+            50,
+            57
+          ],
+          "gain": {
+            "0.1": 2.651747771565971,
+            "0.5": 70.68907163916317,
+            "0.85": 610.4731764001556
+          },
+          "heat": {
+            "0.05": 1.2123903708188266,
+            "0.2": 3.1735247935972253,
+            "1.0": 4.452731169747335
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.0,
+            "mean_endpoint_weighted_degree_sum": 7.852003979791473,
+            "mean_shared_two_hop_neighbors": 0.06666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 6.6,
+            "mean_endpoint_two_hop_reach_sum": 60.266666666666666,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            55,
+            45,
+            48,
+            56,
+            44,
+            39,
+            28,
+            12,
+            27,
+            23,
+            52,
+            31,
+            32,
+            14,
+            4
+          ],
+          "gain": {
+            "0.1": 2.347494430178488,
+            "0.5": 69.41190325666294,
+            "0.85": 616.1651400126694
+          },
+          "heat": {
+            "0.05": 1.2909339261364885,
+            "0.2": 3.39679657742806,
+            "1.0": 3.4727514584759067
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 13.066666666666666,
+            "mean_endpoint_weighted_degree_sum": 3.5172437194063417,
+            "mean_shared_two_hop_neighbors": 19.4,
+            "mean_one_hop_ego_union_induced_edges": 20.266666666666666,
+            "mean_endpoint_two_hop_reach_sum": 90.73333333333333,
+            "selected_cross_block_edges": 7
+          },
+          "cross": 7
+        },
+        "s0.1": {
+          "selected": [
+            55,
+            52,
+            56,
+            45,
+            48,
+            54,
+            36,
+            39,
+            51,
+            50,
+            49,
+            47,
+            43,
+            28,
+            44
+          ],
+          "gain": {
+            "0.1": 2.8432244125774884,
+            "0.5": 74.03440368377255,
+            "0.85": 619.1724540480378
+          },
+          "heat": {
+            "0.05": 1.2302152546769827,
+            "0.2": 3.3166934710391267,
+            "1.0": 5.045127651426774
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.533333333333333,
+            "mean_endpoint_weighted_degree_sum": 7.484377724440975,
+            "mean_shared_two_hop_neighbors": 0.9333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 7.733333333333333,
+            "mean_endpoint_two_hop_reach_sum": 60.333333333333336,
+            "selected_cross_block_edges": 14
+          },
+          "cross": 14,
+          "eta": 0.06607829291885145,
+          "overlap_logdet": 15,
+          "celf_seconds": 0.046223540004575625,
+          "inc_seconds": 0.031135615005041473,
+          "celf_calls": 188,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 2.8432244125774884
+        },
+        "s0.5": {
+          "selected": [
+            55,
+            56,
+            45,
+            48,
+            39,
+            52,
+            36,
+            50,
+            28,
+            49,
+            54,
+            44,
+            51,
+            12,
+            47
+          ],
+          "gain": {
+            "0.1": 2.8157176084412203,
+            "0.5": 74.25618303728783,
+            "0.85": 621.6302402781292
+          },
+          "heat": {
+            "0.05": 1.249250045378836,
+            "0.2": 3.3872514127349747,
+            "1.0": 4.907642534730957
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.466666666666667,
+            "mean_endpoint_weighted_degree_sum": 6.50012887338819,
+            "mean_shared_two_hop_neighbors": 3.8,
+            "mean_one_hop_ego_union_induced_edges": 9.333333333333334,
+            "mean_endpoint_two_hop_reach_sum": 64.93333333333334,
+            "selected_cross_block_edges": 13
+          },
+          "cross": 13,
+          "eta": 0.06607829291885145,
+          "overlap_logdet": 14,
+          "celf_seconds": 0.031105727990507148,
+          "inc_seconds": 0.030358377000084147,
+          "celf_calls": 173,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 74.25618303728783
+        },
+        "s0.85": {
+          "selected": [
+            55,
+            56,
+            45,
+            48,
+            39,
+            52,
+            28,
+            36,
+            44,
+            12,
+            50,
+            49,
+            27,
+            23,
+            15
+          ],
+          "gain": {
+            "0.1": 2.6200405177302546,
+            "0.5": 73.07958684760898,
+            "0.85": 624.1587954676197
+          },
+          "heat": {
+            "0.05": 1.2976392347083858,
+            "0.2": 3.507603075615898,
+            "1.0": 4.215679555207673
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 10.266666666666667,
+            "mean_endpoint_weighted_degree_sum": 3.781680563163843,
+            "mean_shared_two_hop_neighbors": 9.333333333333334,
+            "mean_one_hop_ego_union_induced_edges": 14.666666666666666,
+            "mean_endpoint_two_hop_reach_sum": 75.93333333333334,
+            "selected_cross_block_edges": 10
+          },
+          "cross": 10,
+          "eta": 0.06607829291885145,
+          "overlap_logdet": 11,
+          "celf_seconds": 0.03076168599363882,
+          "inc_seconds": 0.03045622400532011,
+          "celf_calls": 174,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 624.1587954676197
+        }
+      },
+      "seed": 20271008
+    },
+    {
+      "m": 1167,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            44,
+            55,
+            41,
+            40,
+            52,
+            45,
+            49,
+            48,
+            42,
+            37,
+            47,
+            32,
+            26,
+            38,
+            56
+          ],
+          "gain": {
+            "0.1": 2.8384320916714083,
+            "0.5": 75.02792450150923,
+            "0.85": 624.9298655061666
+          },
+          "heat": {
+            "0.05": 1.2670900596882722,
+            "0.2": 3.4491772192445818,
+            "1.0": 4.962399622557501
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.066666666666666,
+            "mean_endpoint_weighted_degree_sum": 5.44957187591107,
+            "mean_shared_two_hop_neighbors": 4.733333333333333,
+            "mean_one_hop_ego_union_induced_edges": 9.4,
+            "mean_endpoint_two_hop_reach_sum": 71.8,
+            "selected_cross_block_edges": 12
+          },
+          "cross": 12
+        },
+        "Static": {
+          "selected": [
+            44,
+            55,
+            40,
+            41,
+            56,
+            45,
+            57,
+            49,
+            52,
+            47,
+            42,
+            48,
+            37,
+            36,
+            43
+          ],
+          "gain": {
+            "0.1": 2.6594764191424134,
+            "0.5": 70.63674314898105,
+            "0.85": 609.6295808715356
+          },
+          "heat": {
+            "0.05": 1.206460389792704,
+            "0.2": 3.130944293841075,
+            "1.0": 4.556310447033073
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.133333333333334,
+            "mean_endpoint_weighted_degree_sum": 8.014065103513676,
+            "mean_shared_two_hop_neighbors": 0.0,
+            "mean_one_hop_ego_union_induced_edges": 7.4,
+            "mean_endpoint_two_hop_reach_sum": 68.26666666666667,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            49,
+            32,
+            45,
+            44,
+            40,
+            38,
+            55,
+            47,
+            26,
+            34,
+            19,
+            16,
+            3,
+            4,
+            18
+          ],
+          "gain": {
+            "0.1": 2.4607055961001283,
+            "0.5": 71.87632465104083,
+            "0.85": 623.4516695223099
+          },
+          "heat": {
+            "0.05": 1.3076359491919658,
+            "0.2": 3.552474020374373,
+            "1.0": 3.857318333353929
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 11.466666666666667,
+            "mean_endpoint_weighted_degree_sum": 3.110424549226911,
+            "mean_shared_two_hop_neighbors": 20.933333333333334,
+            "mean_one_hop_ego_union_induced_edges": 18.8,
+            "mean_endpoint_two_hop_reach_sum": 92.86666666666666,
+            "selected_cross_block_edges": 6
+          },
+          "cross": 6
+        },
+        "s0.1": {
+          "selected": [
+            44,
+            55,
+            40,
+            41,
+            45,
+            52,
+            49,
+            42,
+            47,
+            48,
+            37,
+            32,
+            26,
+            38,
+            56
+          ],
+          "gain": {
+            "0.1": 2.8384320916714083,
+            "0.5": 75.02792450150923,
+            "0.85": 624.9298655061666
+          },
+          "heat": {
+            "0.05": 1.2670900596882722,
+            "0.2": 3.4491772192445818,
+            "1.0": 4.962399622557501
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.066666666666666,
+            "mean_endpoint_weighted_degree_sum": 5.44957187591107,
+            "mean_shared_two_hop_neighbors": 4.733333333333333,
+            "mean_one_hop_ego_union_induced_edges": 9.4,
+            "mean_endpoint_two_hop_reach_sum": 71.8,
+            "selected_cross_block_edges": 12
+          },
+          "cross": 12,
+          "eta": 0.06691066863337675,
+          "overlap_logdet": 15,
+          "celf_seconds": 0.05460621300153434,
+          "inc_seconds": 0.03152937900449615,
+          "celf_calls": 197,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 2.8384320916714083
+        },
+        "s0.5": {
+          "selected": [
+            44,
+            55,
+            40,
+            49,
+            45,
+            32,
+            47,
+            41,
+            52,
+            42,
+            38,
+            26,
+            37,
+            48,
+            3
+          ],
+          "gain": {
+            "0.1": 2.8273404324887332,
+            "0.5": 75.20677619734406,
+            "0.85": 625.9685826810918
+          },
+          "heat": {
+            "0.05": 1.2717359827561754,
+            "0.2": 3.482275016639539,
+            "1.0": 4.947468702652854
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.8,
+            "mean_endpoint_weighted_degree_sum": 5.348563026757623,
+            "mean_shared_two_hop_neighbors": 7.666666666666667,
+            "mean_one_hop_ego_union_induced_edges": 11.2,
+            "mean_endpoint_two_hop_reach_sum": 76.13333333333334,
+            "selected_cross_block_edges": 11
+          },
+          "cross": 11,
+          "eta": 0.06691066863337675,
+          "overlap_logdet": 14,
+          "celf_seconds": 0.03392181999515742,
+          "inc_seconds": 0.030757238986552693,
+          "celf_calls": 176,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 75.20677619734406
+        },
+        "s0.85": {
+          "selected": [
+            44,
+            49,
+            55,
+            40,
+            45,
+            32,
+            38,
+            47,
+            26,
+            41,
+            52,
+            42,
+            3,
+            34,
+            27
+          ],
+          "gain": {
+            "0.1": 2.7192344093050242,
+            "0.5": 74.8318271278198,
+            "0.85": 628.6808183468809
+          },
+          "heat": {
+            "0.05": 1.3050749757948903,
+            "0.2": 3.587744427714313,
+            "1.0": 4.541916261503271
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 9.066666666666666,
+            "mean_endpoint_weighted_degree_sum": 3.620824905382939,
+            "mean_shared_two_hop_neighbors": 12.866666666666667,
+            "mean_one_hop_ego_union_induced_edges": 13.0,
+            "mean_endpoint_two_hop_reach_sum": 80.06666666666666,
+            "selected_cross_block_edges": 9
+          },
+          "cross": 9,
+          "eta": 0.06691066863337675,
+          "overlap_logdet": 12,
+          "celf_seconds": 0.028993715008255094,
+          "inc_seconds": 0.030371348999324255,
+          "celf_calls": 172,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": false,
+          "same_set_q54": true,
+          "q54_gain": 628.6808183468809
+        }
+      },
+      "seed": 20271009
+    },
+    {
+      "m": 1167,
+      "methods": {
+        "Logdet": {
+          "selected": [
+            49,
+            51,
+            55,
+            30,
+            44,
+            48,
+            56,
+            38,
+            52,
+            43,
+            50,
+            42,
+            57,
+            27,
+            20
+          ],
+          "gain": {
+            "0.1": 2.838647662894791,
+            "0.5": 74.11510536242947,
+            "0.85": 619.6772124929096
+          },
+          "heat": {
+            "0.05": 1.2336785087607833,
+            "0.2": 3.3172129032567734,
+            "1.0": 5.074633300616881
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.133333333333334,
+            "mean_endpoint_weighted_degree_sum": 7.203181893922501,
+            "mean_shared_two_hop_neighbors": 5.0,
+            "mean_one_hop_ego_union_induced_edges": 9.533333333333333,
+            "mean_endpoint_two_hop_reach_sum": 76.06666666666666,
+            "selected_cross_block_edges": 13
+          },
+          "cross": 13
+        },
+        "Static": {
+          "selected": [
+            49,
+            51,
+            55,
+            30,
+            38,
+            31,
+            52,
+            44,
+            45,
+            46,
+            56,
+            50,
+            48,
+            53,
+            43
+          ],
+          "gain": {
+            "0.1": 2.6699854733282162,
+            "0.5": 70.94008384786407,
+            "0.85": 611.4053250948593
+          },
+          "heat": {
+            "0.05": 1.2208098309154,
+            "0.2": 3.161327983211492,
+            "1.0": 4.504021712953619
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 6.2,
+            "mean_endpoint_weighted_degree_sum": 7.162997031172907,
+            "mean_shared_two_hop_neighbors": 0.13333333333333333,
+            "mean_one_hop_ego_union_induced_edges": 7.133333333333334,
+            "mean_endpoint_two_hop_reach_sum": 68.86666666666666,
+            "selected_cross_block_edges": 15
+          },
+          "cross": 15
+        },
+        "Degree": {
+          "selected": [
+            55,
+            49,
+            30,
+            51,
+            38,
+            27,
+            52,
+            33,
+            26,
+            20,
+            24,
+            7,
+            14,
+            5,
+            11
+          ],
+          "gain": {
+            "0.1": 2.413943457484488,
+            "0.5": 70.96188789093485,
+            "0.85": 620.7695909781788
+          },
+          "heat": {
+            "0.05": 1.3010000510206468,
+            "0.2": 3.4950767275860524,
+            "1.0": 3.7252194634071363
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 11.466666666666667,
+            "mean_endpoint_weighted_degree_sum": 2.9964697881015665,
+            "mean_shared_two_hop_neighbors": 23.533333333333335,
+            "mean_one_hop_ego_union_induced_edges": 19.266666666666666,
+            "mean_endpoint_two_hop_reach_sum": 96.8,
+            "selected_cross_block_edges": 6
+          },
+          "cross": 6
+        },
+        "s0.1": {
+          "selected": [
+            49,
+            55,
+            51,
+            30,
+            44,
+            38,
+            52,
+            56,
+            48,
+            50,
+            43,
+            42,
+            57,
+            27,
+            20
+          ],
+          "gain": {
+            "0.1": 2.838647662894791,
+            "0.5": 74.11510536242947,
+            "0.85": 619.6772124929096
+          },
+          "heat": {
+            "0.05": 1.2336785087607833,
+            "0.2": 3.3172129032567734,
+            "1.0": 5.074633300616881
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 7.133333333333334,
+            "mean_endpoint_weighted_degree_sum": 7.203181893922499,
+            "mean_shared_two_hop_neighbors": 5.0,
+            "mean_one_hop_ego_union_induced_edges": 9.533333333333333,
+            "mean_endpoint_two_hop_reach_sum": 76.06666666666666,
+            "selected_cross_block_edges": 13
+          },
+          "cross": 13,
+          "eta": 0.07283784191952172,
+          "overlap_logdet": 15,
+          "celf_seconds": 0.04460701800417155,
+          "inc_seconds": 0.03187258700199891,
+          "celf_calls": 185,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 2.838647662894791
+        },
+        "s0.5": {
+          "selected": [
+            55,
+            49,
+            30,
+            51,
+            52,
+            38,
+            44,
+            27,
+            56,
+            50,
+            20,
+            14,
+            48,
+            33,
+            43
+          ],
+          "gain": {
+            "0.1": 2.781379175892454,
+            "0.5": 74.40564888243276,
+            "0.85": 623.7804909625011
+          },
+          "heat": {
+            "0.05": 1.2666660402350205,
+            "0.2": 3.4473594584931004,
+            "1.0": 4.801976549655118
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 8.333333333333334,
+            "mean_endpoint_weighted_degree_sum": 5.565818261492135,
+            "mean_shared_two_hop_neighbors": 9.466666666666667,
+            "mean_one_hop_ego_union_induced_edges": 11.866666666666667,
+            "mean_endpoint_two_hop_reach_sum": 80.93333333333334,
+            "selected_cross_block_edges": 11
+          },
+          "cross": 11,
+          "eta": 0.07283784191952172,
+          "overlap_logdet": 13,
+          "celf_seconds": 0.03581190199474804,
+          "inc_seconds": 0.03182106600434054,
+          "celf_calls": 178,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 74.40564888243276
+        },
+        "s0.85": {
+          "selected": [
+            55,
+            49,
+            30,
+            51,
+            52,
+            38,
+            27,
+            20,
+            44,
+            14,
+            56,
+            33,
+            50,
+            26,
+            16
+          ],
+          "gain": {
+            "0.1": 2.6776469564352783,
+            "0.5": 74.10045798628194,
+            "0.85": 626.6725265055348
+          },
+          "heat": {
+            "0.05": 1.300609125243102,
+            "0.2": 3.547936868169526,
+            "1.0": 4.427483840738677
+          },
+          "structure": {
+            "mean_endpoint_degree_sum": 9.6,
+            "mean_endpoint_weighted_degree_sum": 3.6357911932988416,
+            "mean_shared_two_hop_neighbors": 15.0,
+            "mean_one_hop_ego_union_induced_edges": 14.4,
+            "mean_endpoint_two_hop_reach_sum": 88.86666666666666,
+            "selected_cross_block_edges": 9
+          },
+          "cross": 9,
+          "eta": 0.07283784191952172,
+          "overlap_logdet": 11,
+          "celf_seconds": 0.038056837001931854,
+          "inc_seconds": 0.030187437005224638,
+          "celf_calls": 182,
+          "inc_calls": 165,
+          "init_calls": 150,
+          "same_celf_inc": true,
+          "same_q54": true,
+          "same_set_q54": true,
+          "q54_gain": 626.6725265055348
+        }
+      },
+      "seed": 20271010
+    }
+  ],
+  "hetero_generator_reproduces_recorded_graph": true
+}

@@ -1,0 +1,5 @@
+# Versions used for the unified CPU experiments (Python 3.12.14).
+numpy==2.3.5
+scipy==1.17.0
+networkx==3.5
+threadpoolctl==3.6.0

@@ -1,0 +1,33 @@
+UNIFIED SCIENCE downstream Multiscale-SBM
+UNIFIED SCIENCE scan Heterogeneous-Multiscale alpha=1
+UNIFIED SCIENCE scan Heterogeneous-Multiscale alpha=10
+UNIFIED SCIENCE scan Heterogeneous-Multiscale alpha=50
+UNIFIED SCIENCE scan Heterogeneous-Multiscale alpha=200
+UNIFIED SCIENCE downstream Heterogeneous-Multiscale
+UNIFIED SCIENCE group scan 24.599s
+UNIFIED SCIENCE q audit Small-BA s=0.5, exact seconds=11.970
+UNIFIED SCIENCE q audit Multiscale-SBM s=0.1, exact seconds=14.602
+UNIFIED SCIENCE q audit Multiscale-SBM s=0.5, exact seconds=13.940
+UNIFIED SCIENCE group quadrature 60.940s
+UNIFIED SCIENCE OPT controls complete
+UNIFIED SCIENCE group opt 0.513s
+UNIFIED SCIENCE adaptive Small-BA tol=0.1 enabled=True R=34
+UNIFIED SCIENCE adaptive Small-BA tol=0.1 enabled=False R=0
+UNIFIED SCIENCE adaptive Small-BA tol=0.01 enabled=True R=0
+UNIFIED SCIENCE adaptive Small-BA tol=0.01 enabled=False R=0
+UNIFIED SCIENCE adaptive Small-BA tol=0.0001 enabled=True R=0
+UNIFIED SCIENCE adaptive Small-BA tol=0.0001 enabled=False R=0
+UNIFIED SCIENCE adaptive Small-BA tol=1e-07 enabled=True R=0
+UNIFIED SCIENCE adaptive Small-BA tol=1e-07 enabled=False R=0
+UNIFIED SCIENCE adaptive ca-GrQc tol=1e-07 enabled=True R=21
+UNIFIED SCIENCE adaptive ca-GrQc tol=1e-07 enabled=False R=0
+UNIFIED SCIENCE group adaptive 11.089s
+{
+  "seconds": 97.14535484000044,
+  "groups": [
+    "scan",
+    "quadrature",
+    "opt",
+    "adaptive"
+  ]
+}

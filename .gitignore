@@ -1,0 +1,5 @@
+__pycache__/
+*.so
+*.npz.tmp
+.venv/
+fastfrac_realworld_data/*.gz
