@@ -60,6 +60,7 @@ figure_sources/                        scripts that draw the paper's figures
 provenance/                            record of one interrupted and resumed run
 fastfrac_final_unified_data.md         summary tables of every measurement
 METHODS.md                             timing contract, baselines, audit definitions
+paper/FastFrac.pdf                     the paper
 ```
 
 ## Quick start
