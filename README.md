@@ -13,7 +13,7 @@ long-time relaxation. FastFrac maximizes the gain of the positive fractional
 spectral trace
 
 ```math
-F_s(S) = \operatorname{Tr}\big((I+\alpha L_S)^{s}\big), \qquad 0<s<1,
+F_s(S) = \mathrm{Tr}\big((I+\alpha L_S)^{s}\big), \qquad 0<s<1,
 ```
 
 where `L_S` is the Laplacian after adding edge set `S`. Smaller `s` gives
